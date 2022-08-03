@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Modified on Friday March 10 22:28:28, 2006 -->
+
+<templates>
+	<template>
+		<label>Applet Class</label>
+		<quickaccess>false</quickaccess>
+		<description>Creates a new AWT (Abstract Window Toolkit) applet. An applet is a Java class that can run in any Java-enabled browser.</description>
+		<type>java</type>
+		<source>Applet Class.java.jc</source>
+	</template>
+	<template>
+		<label>Empty Java File</label>
+		<quickaccess>false</quickaccess>
+		<description>Creates a new empty Java file.</description>
+		<type>java</type>
+		<source>Empty.java.jc</source>
+	</template>
+	<template>
+		<label>Exception Class</label>
+		<quickaccess>false</quickaccess>
+		<description>Creates a new Exception class with an optional detailed message.</description>
+		<type>java</type>
+		<source>Exception Class.java.jc</source>
+	</template>
+	<template>
+		<label>Java Class</label>
+		<quickaccess>true</quickaccess>
+		<description>Creates a new Java class.</description>
+		<type>java</type>
+		<source>Java Class.java.jc</source>
+	</template>
+	<template>
+		<label>Java Enum</label>
+		<quickaccess>true</quickaccess>
+		<description>Creates a new Java Enum file. To be able to use enum files, your project must use JDK 5.0 or compatible.</description>
+		<type>java</type>
+		<source>Java Enum.java.jc</source>
+	</template>
+	<template>
+		<label>Java Interface</label>
+		<quickaccess>true</quickaccess>
+		<description>Creates a new Java interface.</description>
+		<type>java</type>
+		<source>Java Interface.java.jc</source>
+	</template>
+	<template>
+		<label>Main Class</label>
+		<quickaccess>false</quickaccess>
+		<description>Creates a new Java class with a main method permitting it to be run as a console application.</description>
+		<type>java</type>
+		<source>Main Class.java.jc</source>
+	</template>
+</templates>

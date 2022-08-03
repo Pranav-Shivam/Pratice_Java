@@ -1,0 +1,135 @@
+
+<jcreator>
+	<document>
+		<parser>
+			<defaultsyntax/>
+			<syntaxblock1/>
+			<syntaxblock2/>
+			<syntaxblock3/>
+			<syntaxblock4/>
+			<syntaxblock5/>
+		</parser>
+		<settings>
+			<general>
+				<version>50</version>
+				<label>Output</label>
+				<tabsize>4</tabsize>
+				<encoding>-1</encoding>
+				<file_extensions>txt,doc,diz</file_extensions>
+				<insert_spaces>false</insert_spaces>
+				<auto_indent>true</auto_indent>
+				<indent_mode>none</indent_mode>
+				<indent_engine/>
+				<endofline>AUTO</endofline>
+				<backspace>false</backspace>
+				<autobracket>false</autobracket>
+				<show_spaces>false</show_spaces>
+				<show_linenr>false</show_linenr>
+				<show_margin>true</show_margin>
+				<wordwrap>true</wordwrap>
+				<trim_trailingspaces>false</trim_trailingspaces>
+				<disable_syntax>false</disable_syntax>
+				<textlimit>80</textlimit>
+				<track_changes>false</track_changes>
+				<spelling>true</spelling>
+				<symatic>false</symatic>
+			</general>
+			<colors>
+				<background>
+					<foreground>#FFFFFF</foreground>
+					<background>#FFFFFF</background>
+					<label>Background</label>
+				</background>
+				<bookmarks>
+					<foreground>#000000</foreground>
+					<background>#000080</background>
+					<label>Bookmark</label>
+				</bookmarks>
+				<breakpoints/>
+				<debugpointer/>
+				<disabled_breakpoints/>
+				<errorpointer/>
+				<folding_box/>
+				<folding_margin/>
+				<leftmargin>
+					<foreground colorxp="#9D9CB4" colorvi="#99B4D1">#7070BF</foreground>
+					<background colorxp="#ECE9D8" colorvi="#F0F0F0">#E2DFDA</background>
+					<label>Left Margin</label>
+				</leftmargin>
+				<line_highlight>
+					<foreground>#000000</foreground>
+					<background>#E6E6FA</background>
+					<label>Cursor Line</label>
+				</line_highlight>
+				<linepointer>
+					<foreground>#000000</foreground>
+					<background>#E6E6FA</background>
+					<highlight>true</highlight>
+					<label>Line Pointer</label>
+				</linepointer>
+				<selectedtext>
+					<foreground>#FFFFFF</foreground>
+					<background colorxp="#7A9BDF" colorvi="#3399FF">#7070BF</background>
+					<label>Selected Text</label>
+				</selectedtext>
+				<spelling>
+					<foreground>#FF0000</foreground>
+					<background>#FFFFFF</background>
+					<label>Spelling</label>
+				</spelling>
+				<strack_margin>
+					<foreground>#CDD8EB</foreground>
+					<background>#8FA6CE</background>
+					<label>Saved Track Margin</label>
+				</strack_margin>
+				<textlimit_line>
+					<foreground>#EFEBEF</foreground>
+					<background>#EFEBEF</background>
+					<label>Text Limiter</label>
+				</textlimit_line>
+				<track_margin>
+					<foreground>#FFD66B</foreground>
+					<background>#FFFF9C</background>
+					<label>Modified Track Margin</label>
+				</track_margin>
+				<whitespace>
+					<foreground>#999999</foreground>
+					<background>#FFFFFF</background>
+					<label>White Spaces</label>
+				</whitespace>
+			</colors>
+			<fonts>
+				<screen>
+					<name>Courier New</name>
+					<size>-13</size>
+					<charset>0</charset>
+				</screen>
+				<printer>
+					<name>Courier</name>
+					<size>-15</size>
+					<charset>0</charset>
+				</printer>
+			</fonts>
+			<printer>
+				<header_string>&amp;L&amp;f&amp;R&amp;d</header_string>
+				<footer_string>&amp;C&amp;p of &amp;P</footer_string>
+				<margins>0,0,0,0</margins>
+				<papersize>0,0</papersize>
+				<footerline>false</footerline>
+				<headerline>false</headerline>
+				<line_numbers>false</line_numbers>
+				<color>false</color>
+				<wordwrap>false</wordwrap>
+			</printer>
+			<folding>
+				<enable>false</enable>
+				<auto_refresh>true</auto_refresh>
+				<engine/>
+				<initial_collapse>false</initial_collapse>
+				<extend_spaces>false</extend_spaces>
+				<max_level>1</max_level>
+				<max_length>-1</max_length>
+			</folding>
+		</settings>
+	</document>
+</jcreator>

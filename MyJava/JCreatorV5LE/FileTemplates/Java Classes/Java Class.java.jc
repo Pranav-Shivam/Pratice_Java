@@ -1,0 +1,16 @@
+/**
+ * @(#)$[FileBase].java
+ *
+ *
+ * @author $[Author]
+ * @version 1.00 $[Year]/$[Month]/$[Day]
+ */
+
+
+public class $[FileBase] {
+
+    public $[FileBase]() {
+    }
+    
+    
+}

@@ -1,0 +1,358 @@
+
+<jcreator>
+	<document>
+		<parser>
+			<defaultsyntax>
+				<settings>
+					<case_sensitive>true</case_sensitive>
+					<multiline_strings>true</multiline_strings>
+					<embedded_syntax>false</embedded_syntax>
+					<accept_embedded_syntax>true</accept_embedded_syntax>
+					<parser>DEFAULT</parser>
+				</settings>
+				<syntax>
+					<syntaxstart/>
+					<syntaxend/>
+					<extcommentstart>&lt;!--</extcommentstart>
+					<extcommentend>--&gt;</extcommentend>
+					<extcommentstart2>&lt;!</extcommentstart2>
+					<extcommentend2>&gt;</extcommentend2>
+					<commentstart/>
+					<commentend/>
+					<commentstart2/>
+					<commentend2/>
+					<stringstart/>
+					<stringend/>
+					<charstart/>
+					<charend/>
+					<preprocessor/>
+					<operators/>
+					<brackets/>
+					<escape>\</escape>
+				</syntax>
+				<colors>
+					<normaltext>
+						<foreground>#000000</foreground>
+						<background>#FFFFFF</background>
+						<label>Normal Text</label>
+					</normaltext>
+					<brackets/>
+					<brackets_highlight/>
+					<commentline/>
+					<commenttext1>
+						<foreground>#008000</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Comment</label>
+					</commenttext1>
+					<commenttext2>
+						<foreground>#999999</foreground>
+						<background>#FFFFFF</background>
+						<label>Html DocType</label>
+					</commenttext2>
+					<const_var>
+						<foreground>#000000</foreground>
+						<background>#FFFFFF</background>
+						<label>Constant</label>
+					</const_var>
+					<constructor>
+						<foreground>#000000</foreground>
+						<background>#FFFFFF</background>
+						<label>Constructor</label>
+					</constructor>
+					<erroneous>
+						<foreground>#FF0000</foreground>
+						<background>#FFFFFF</background>
+						<label>Erroneous Text</label>
+					</erroneous>
+					<keywords1/>
+					<keywords2/>
+					<keywords3/>
+					<keywords4/>
+					<methods/>
+					<normaltext/>
+					<numbers/>
+					<operators/>
+					<preprocessors/>
+					<strings>
+						<foreground>#FF0000</foreground>
+						<background>#FFFFFF</background>
+						<label>String</label>
+					</strings>
+					<syntaxend/>
+					<syntaxstart/>
+					<tag_attribute/>
+					<tag_element/>
+					<tag_value/>
+				</colors>
+				<keywords>
+					<keyword_list1/>
+					<keyword_list2/>
+					<keyword_list3/>
+					<keyword_list4/>
+					<preprocessors/>
+				</keywords>
+			</defaultsyntax>
+			<syntaxblock1/>
+			<syntaxblock2/>
+			<syntaxblock3/>
+			<syntaxblock4>
+				<settings>
+					<case_sensitive>true</case_sensitive>
+					<multiline_strings>true</multiline_strings>
+					<embedded_syntax>false</embedded_syntax>
+					<accept_embedded_syntax>true</accept_embedded_syntax>
+					<parser>XML</parser>
+				</settings>
+				<syntax>
+					<syntaxstart>&lt;</syntaxstart>
+					<syntaxend>&gt;</syntaxend>
+					<extcommentstart/>
+					<extcommentend/>
+					<extcommentstart2/>
+					<extcommentend2/>
+					<commentstart/>
+					<commentend/>
+					<commentstart2/>
+					<commentend2/>
+					<stringstart>&quot;</stringstart>
+					<stringend>&quot;</stringend>
+					<charstart>&apos;</charstart>
+					<charend>&apos;</charend>
+					<preprocessor/>
+					<operators>?/=!</operators>
+					<brackets/>
+					<escape>\</escape>
+				</syntax>
+				<colors>
+					<normaltext>
+						<foreground>#000000</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Unknown Text</label>
+					</normaltext>
+					<brackets/>
+					<brackets_highlight/>
+					<commentline/>
+					<commenttext1/>
+					<commenttext2/>
+					<const_var>
+						<foreground>#000000</foreground>
+						<background>#FFFFFF</background>
+						<label>Constant</label>
+					</const_var>
+					<constructor>
+						<foreground>#000000</foreground>
+						<background>#FFFFFF</background>
+						<label>Constructor</label>
+					</constructor>
+					<erroneous>
+						<foreground>#FF0000</foreground>
+						<background>#FF0000</background>
+						<label>Erroneous Text</label>
+					</erroneous>
+					<keywords1/>
+					<keywords2/>
+					<keywords3/>
+					<keywords4/>
+					<methods/>
+					<normaltext/>
+					<numbers/>
+					<operators>
+						<foreground>#990099</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Operator</label>
+					</operators>
+					<preprocessors/>
+					<sdk_class>
+						<foreground>#00008B</foreground>
+						<background>#FFFFFF</background>
+						<label>API Class</label>
+					</sdk_class>
+					<strings>
+						<foreground>#0033CC</foreground>
+						<background>#FFFFFF</background>
+						<label>Html String</label>
+					</strings>
+					<syntaxend>
+						<foreground>#990099</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Tag Close</label>
+					</syntaxend>
+					<syntaxstart>
+						<foreground>#990099</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Tag Open</label>
+					</syntaxstart>
+					<tag_attribute>
+						<foreground>#CC6600</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Attribute</label>
+					</tag_attribute>
+					<tag_element>
+						<foreground>#990099</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Element</label>
+					</tag_element>
+					<tag_value>
+						<foreground>#008080</foreground>
+						<background>#FFFFFF</background>
+						<label>Html Attribute Value</label>
+					</tag_value>
+				</colors>
+				<keywords>
+					<keyword_list1/>
+					<keyword_list2/>
+					<keyword_list3/>
+					<keyword_list4/>
+					<preprocessors/>
+				</keywords>
+			</syntaxblock4>
+			<syntaxblock5/>
+		</parser>
+		<settings>
+			<general>
+				<version>50</version>
+				<label>Html</label>
+				<tabsize>4</tabsize>
+				<encoding>-1</encoding>
+				<file_extensions>htm;html</file_extensions>
+				<insert_spaces>false</insert_spaces>
+				<auto_indent>true</auto_indent>
+				<indent_mode>none</indent_mode>
+				<indent_engine/>
+				<endofline>AUTO</endofline>
+				<backspace>false</backspace>
+				<autobracket>false</autobracket>
+				<show_spaces>false</show_spaces>
+				<show_linenr>false</show_linenr>
+				<show_margin>true</show_margin>
+				<wordwrap>false</wordwrap>
+				<trim_trailingspaces>false</trim_trailingspaces>
+				<disable_syntax>false</disable_syntax>
+				<textlimit>80</textlimit>
+				<track_changes>true</track_changes>
+				<spelling>false</spelling>
+				<symatic>false</symatic>
+			</general>
+			<colors>
+				<background>
+					<foreground>#FFFFFF</foreground>
+					<background>#FFFFFF</background>
+					<label>Background</label>
+				</background>
+				<bookmarks>
+					<foreground>#000000</foreground>
+					<background>#000080</background>
+					<label>Bookmark</label>
+				</bookmarks>
+				<breakpoints>
+					<foreground>#000000</foreground>
+					<background>#FF0000</background>
+					<label>Breakpoint</label>
+				</breakpoints>
+				<debugpointer>
+					<foreground>#000000</foreground>
+					<background colorvi="#FCF1CF">#FFFF00</background>
+					<label>Debug Pointer</label>
+				</debugpointer>
+				<disabled_breakpoints>
+					<foreground>#FF0000</foreground>
+					<background>#FFFFFF</background>
+					<label>Disabled Breakpoint</label>
+				</disabled_breakpoints>
+				<errorpointer>
+					<foreground>#A02000</foreground>
+					<background>#FF0000</background>
+					<label>Error Pointer</label>
+				</errorpointer>
+				<folding_box>
+					<foreground>#A9A9A9</foreground>
+					<background>#FFFFFF</background>
+					<label>Folding Box</label>
+				</folding_box>
+				<folding_margin>
+					<foreground colorxp="#A9A9A9">#FFFFFF</foreground>
+					<background>#FFFFFF</background>
+					<label>Folding Margin</label>
+				</folding_margin>
+				<leftmargin>
+					<foreground colorxp="#9D9CB4" colorvi="#99B4D1">#7070BF</foreground>
+					<background colorxp="#ECE9D8" colorvi="#F0F0F0">#E2DFDA</background>
+					<label>Left Margin</label>
+				</leftmargin>
+				<line_highlight>
+					<foreground>#000000</foreground>
+					<background>#E6E6FA</background>
+					<label>Cursor Line</label>
+				</line_highlight>
+				<linepointer>
+					<foreground>#000000</foreground>
+					<background>#E6E6FA</background>
+					<highlight>true</highlight>
+					<label>Line Pointer</label>
+				</linepointer>
+				<selectedtext>
+					<foreground>#FFFFFF</foreground>
+					<background colorxp="#7A9BDF" colorvi="#3399FF">#7070BF</background>
+					<label>Selected Text</label>
+				</selectedtext>
+				<spelling>
+					<foreground>#FF0000</foreground>
+					<background>#FFFFFF</background>
+					<label>Spelling</label>
+				</spelling>
+				<strack_margin>
+					<foreground>#8FA6CE</foreground>
+					<background>#CDD8EB</background>
+					<label>Track Saved Changes</label>
+				</strack_margin>
+				<textlimit_line>
+					<foreground>#EFEBEF</foreground>
+					<background>#EFEBEF</background>
+					<label>Text Limiter</label>
+				</textlimit_line>
+				<track_margin>
+					<foreground>#FFD96B</foreground>
+					<background>#FFFF9C</background>
+					<label>Track Changes</label>
+				</track_margin>
+				<whitespace>
+					<foreground>#FFFFFF</foreground>
+					<background>#FFFFFF</background>
+					<label>WhiteSpace</label>
+				</whitespace>
+			</colors>
+			<fonts>
+				<screen>
+					<name>Courier New</name>
+					<size>-13</size>
+					<charset>0</charset>
+				</screen>
+				<printer>
+					<name>Courier</name>
+					<size>-15</size>
+					<charset>0</charset>
+				</printer>
+			</fonts>
+			<printer>
+				<header_string>&amp;L&amp;f&amp;R&amp;d</header_string>
+				<footer_string>&amp;C&amp;p of &amp;P</footer_string>
+				<margins>0,0,0,0</margins>
+				<papersize>0,0</papersize>
+				<footerline>false</footerline>
+				<headerline>false</headerline>
+				<line_numbers>false</line_numbers>
+				<color>false</color>
+				<wordwrap>false</wordwrap>
+			</printer>
+			<folding>
+				<enable>false</enable>
+				<auto_refresh>true</auto_refresh>
+				<engine/>
+				<initial_collapse>false</initial_collapse>
+				<extend_spaces>true</extend_spaces>
+				<max_level>1</max_level>
+				<max_length>-1</max_length>
+			</folding>
+		</settings>
+	</document>
+</jcreator>

@@ -1,0 +1,26 @@
+/**
+ * @(#)$[FileBase].java
+ *
+ *
+ * @author $[Author]
+ * @version 1.00 $[Year]/$[Month]/$[Day]
+ */
+
+public class $[FileBase] extends java.lang.Exception {
+        
+    /**
+     * Creates a new instance of <code>$[FileBase]</code>.
+     */
+    public $[FileBase]() {
+    }
+    
+    /**
+     * Constructs an instance of <code>$[FileBase]</code> with the specified 
+     * detail message.
+     *
+     * @param message.
+     */
+    public $[FileBase](String message) {
+        super(message);
+    }
+}

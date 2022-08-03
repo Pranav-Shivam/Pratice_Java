@@ -1,0 +1,14 @@
+/**
+ * @(#)$[FileBase].java
+ *
+ *
+ * @author $[Author]
+ * @version 1.00 $[Year]/$[Month]/$[Day]
+ */
+
+
+public enum $[FileBase] {
+    
+    
+}
+

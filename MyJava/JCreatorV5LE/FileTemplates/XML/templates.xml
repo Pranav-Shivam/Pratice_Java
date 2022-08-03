@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Modified on Monday January 09 15:29:29, 2006 -->
+
+<templates>
+	<template>
+		<label>XML Document</label>
+		<quickaccess>true</quickaccess>
+		<description>Creates a new XML document.</description>
+		<type>xml</type>
+		<source>document.xml.jc</source>
+	</template>
+	<template>
+		<label>XML DocBook</label>
+		<quickaccess>false</quickaccess>
+		<description>Creates a new XML document.</description>
+		<type>xml</type>
+		<source>docbook.xml.jc</source>
+	</template>	
+	<template>
+		<label>DTD Document</label>
+		<quickaccess>false</quickaccess>
+		<description>Creates a new DTD document.</description>
+		<type>dtd</type>
+		<source>document.dtd.jc</source>
+	</template>
+	<template>
+		<label>XSL Document</label>
+		<quickaccess>false</quickaccess>
+		<description>Creates a new XSL document.</description>
+		<type>dtd</type>
+		<source>document.xsl.jc</source>
+	</template>
+</templates>

@@ -1,0 +1,4475 @@
+
+
+<jcreator>
+
+	<document>
+
+		<parser>
+
+			<defaultsyntax>
+
+				<settings>
+
+					<case_sensitive>true</case_sensitive>
+
+					<multiline_strings>true</multiline_strings>
+
+					<embedded_syntax>false</embedded_syntax>
+
+					<accept_embedded_syntax>true</accept_embedded_syntax>
+
+					<parser>DEFAULT</parser>
+
+				</settings>
+
+				<syntax>
+
+					<syntaxstart/>
+
+					<syntaxend/>
+
+					<extcommentstart>&lt;%--</extcommentstart>
+
+					<extcommentend>--%&gt;</extcommentend>
+
+					<extcommentstart2/>
+
+					<extcommentend2/>
+
+					<commentstart/>
+
+					<commentend/>
+
+					<stringstart>&lt;!--</stringstart>
+
+					<stringend>--&gt;</stringend>
+
+					<charstart/>
+
+					<charend/>
+
+					<preprocessor/>
+
+					<operators/>
+
+					<brackets/>
+
+					<escape>\</escape>
+
+				</syntax>
+
+				<colors>
+
+					<normaltext>
+
+						<foreground>#000000</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Normal Text</label>
+
+					</normaltext>
+
+					<keywords1/>
+
+					<keywords2/>
+
+					<keywords3/>
+
+					<keywords4/>
+
+					<preprocessors/>
+
+					<methods/>
+
+					<commentline/>
+
+					<commenttext1>
+
+						<foreground>#7F7F7F</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>HTML Comment</label>
+
+					</commenttext1>
+
+					<commenttext2/>
+
+					<numbers/>
+
+					<operators/>
+
+					<strings>
+
+						<foreground>#7F7F7F</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Comment</label>
+
+					</strings>
+
+					<brackets/>
+
+					<brackets_highlight/>
+
+					<errortext/>
+
+					<syntaxstart/>
+
+					<syntaxend/>
+
+					<tag_element/>
+
+					<tag_attribute/>
+
+					<tag_value/>
+
+				</colors>
+
+				<keywords>
+
+					<keyword_list1/>
+
+					<keyword_list2/>
+
+					<keyword_list3/>
+
+					<keyword_list4/>
+
+					<preprocessors/>
+
+				</keywords>
+
+			</defaultsyntax>
+
+			<syntaxblock1/>
+
+			<syntaxblock2/>
+
+			<syntaxblock3>
+
+				<settings>
+
+					<case_sensitive>true</case_sensitive>
+
+					<multiline_strings>false</multiline_strings>
+
+					<embedded_syntax>true</embedded_syntax>
+
+					<accept_embedded_syntax>false</accept_embedded_syntax>
+
+					<parser>DEFAULT</parser>
+
+				</settings>
+
+				<syntax>
+
+					<syntaxstart>&lt;?</syntaxstart>
+
+					<syntaxend>?%&gt;</syntaxend>
+
+					<extcommentstart>/*</extcommentstart>
+
+					<extcommentend>*/</extcommentend>
+
+					<extcommentstart2/>
+
+					<extcommentend2/>
+
+					<commentstart>//</commentstart>
+
+					<commentend/>
+
+					<stringstart>&quot;</stringstart>
+
+					<stringend>&quot;</stringend>
+
+					<charstart>&apos;</charstart>
+
+					<charend>&apos;</charend>
+
+					<preprocessor/>
+
+					<operators>-+*/&lt;&gt;!~%^&amp;|=</operators>
+
+					<brackets>[](){}</brackets>
+
+					<escape>\</escape>
+
+				</syntax>
+
+				<colors>
+
+					<normaltext>
+
+						<foreground>#000000</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Text</label>
+
+					</normaltext>
+
+					<keywords1>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Keyword 1</label>
+
+					</keywords1>
+
+					<keywords2>
+
+						<foreground>#00008B</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Keyword 2</label>
+
+					</keywords2>
+
+					<keywords3>
+
+						<foreground>#00008B</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Keyword 3</label>
+
+					</keywords3>
+
+					<keywords4>
+
+						<foreground>#00008B</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Keyword 4</label>
+
+					</keywords4>
+
+					<preprocessors/>
+
+					<methods>
+
+						<foreground>#000000</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Method Call</label>
+
+					</methods>
+
+					<commentline>
+
+						<foreground>#007F00</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Comment Line</label>
+
+					</commentline>
+
+					<commenttext1>
+
+						<foreground>#007F00</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Comment</label>
+
+					</commenttext1>
+
+					<commenttext2/>
+
+					<numbers>
+
+						<foreground>#000000</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Number</label>
+
+					</numbers>
+
+					<operators>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Operator</label>
+
+					</operators>
+
+					<strings>
+
+						<foreground>#4B0082</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP String</label>
+
+					</strings>
+
+					<brackets>
+
+						<foreground>#000000</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Bracket</label>
+
+					</brackets>
+
+					<brackets_highlight>
+
+						<foreground>#000000</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Bracket Highlight</label>
+
+					</brackets_highlight>
+
+					<errortext/>
+
+					<syntaxstart>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Tag Open</label>
+
+					</syntaxstart>
+
+					<syntaxend>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>PHP Tag Close</label>
+
+					</syntaxend>
+
+					<tag_element/>
+
+					<tag_attribute/>
+
+					<tag_value/>
+
+				</colors>
+
+				<keywords>
+
+					<keyword_list1>
+
+						<word>__FILE__</word>
+
+						<word>__LINE__</word>
+
+						<word>and</word>
+
+						<word>array</word>
+
+						<word>break</word>
+
+						<word>case</word>
+
+						<word>cfunction</word>
+
+						<word>class</word>
+
+						<word>const</word>
+
+						<word>continue</word>
+
+						<word>default</word>
+
+						<word>die</word>
+
+						<word>do</word>
+
+						<word>double</word>
+
+						<word>echo</word>
+
+						<word>else</word>
+
+						<word>elseif</word>
+
+						<word>empty</word>
+
+						<word>endfor</word>
+
+						<word>endif</word>
+
+						<word>endswitch</word>
+
+						<word>endwhile</word>
+
+						<word>eval</word>
+
+						<word>exit</word>
+
+						<word>extends</word>
+
+						<word>float</word>
+
+						<word>for</word>
+
+						<word>function</word>
+
+						<word>global</word>
+
+						<word>highlight_file</word>
+
+						<word>highlight_string</word>
+
+						<word>if</word>
+
+						<word>include</word>
+
+						<word>int</word>
+
+						<word>integer</word>
+
+						<word>isset</word>
+
+						<word>list</word>
+
+						<word>new</word>
+
+						<word>object</word>
+
+						<word>old_function</word>
+
+						<word>or</word>
+
+						<word>pageid</word>
+
+						<word>php_array</word>
+
+						<word>php_const</word>
+
+						<word>php_echo</word>
+
+						<word>php_file</word>
+
+						<word>php_line</word>
+
+						<word>php_list</word>
+
+						<word>php_print</word>
+
+						<word>print</word>
+
+						<word>real</word>
+
+						<word>require</word>
+
+						<word>return</word>
+
+						<word>show_source</word>
+
+						<word>static</word>
+
+						<word>string</word>
+
+						<word>switch</word>
+
+						<word>unset</word>
+
+						<word>var</word>
+
+						<word>while</word>
+
+						<word>xor</word>
+
+					</keyword_list1>
+
+					<keyword_list2>
+
+						<word>abs</word>
+
+						<word>acos</word>
+
+						<word>ada_afetch</word>
+
+						<word>ada_autocommit</word>
+
+						<word>ada_close</word>
+
+						<word>ada_closeall</word>
+
+						<word>ada_commit</word>
+
+						<word>ada_connect</word>
+
+						<word>ada_exec</word>
+
+						<word>ada_fetchrow</word>
+
+						<word>ada_fieldlen</word>
+
+						<word>ada_fieldname</word>
+
+						<word>ada_fieldtype</word>
+
+						<word>ada_freeresult</word>
+
+						<word>ada_numfields</word>
+
+						<word>ada_numrows</word>
+
+						<word>ada_result</word>
+
+						<word>ada_resultall</word>
+
+						<word>ada_rollback</word>
+
+						<word>add_root</word>
+
+						<word>addcslashes</word>
+
+						<word>addslashes</word>
+
+						<word>alarm</word>
+
+						<word>apache_lookup_uri</word>
+
+						<word>apache_note</word>
+
+						<word>array_count_values</word>
+
+						<word>array_diff</word>
+
+						<word>array_flip</word>
+
+						<word>array_intersect</word>
+
+						<word>array_keys</word>
+
+						<word>array_merge</word>
+
+						<word>array_merge_recursive</word>
+
+						<word>array_multisort</word>
+
+						<word>array_pad</word>
+
+						<word>array_pop</word>
+
+						<word>array_push</word>
+
+						<word>array_rand</word>
+
+						<word>array_reverse</word>
+
+						<word>array_shift</word>
+
+						<word>array_slice</word>
+
+						<word>array_splice</word>
+
+						<word>array_unique</word>
+
+						<word>array_unshift</word>
+
+						<word>array_values</word>
+
+						<word>array_walk</word>
+
+						<word>arsort</word>
+
+						<word>asin</word>
+
+						<word>asort</word>
+
+						<word>aspell_check</word>
+
+						<word>aspell_check_raw</word>
+
+						<word>aspell_new</word>
+
+						<word>aspell_suggest</word>
+
+						<word>assert</word>
+
+						<word>assert_options</word>
+
+						<word>atan</word>
+
+						<word>atan2</word>
+
+						<word>attributes</word>
+
+						<word>base64_decode</word>
+
+						<word>base64_encode</word>
+
+						<word>base_convert</word>
+
+						<word>basename</word>
+
+						<word>bcadd</word>
+
+						<word>bccomp</word>
+
+						<word>bcdiv</word>
+
+						<word>bcmod</word>
+
+						<word>bcmul</word>
+
+						<word>bcpow</word>
+
+						<word>bcscale</word>
+
+						<word>bcsqrt</word>
+
+						<word>bcsub</word>
+
+						<word>bin2hex</word>
+
+						<word>bindec</word>
+
+						<word>bindtextdomain</word>
+
+						<word>call_user_func</word>
+
+						<word>call_user_method</word>
+
+						<word>ceil</word>
+
+						<word>chdir</word>
+
+						<word>checkdate</word>
+
+						<word>checkdnsrr</word>
+
+						<word>chgrp</word>
+
+						<word>children</word>
+
+						<word>chmod</word>
+
+						<word>chop</word>
+
+						<word>chown</word>
+
+						<word>chr</word>
+
+						<word>chunk_split</word>
+
+						<word>class_exists</word>
+
+						<word>clearstatcache</word>
+
+						<word>close</word>
+
+						<word>closedir</word>
+
+						<word>closelog</word>
+
+						<word>com_get</word>
+
+						<word>com_invoke</word>
+
+						<word>com_load</word>
+
+						<word>com_propget</word>
+
+						<word>com_propput</word>
+
+						<word>com_propset</word>
+
+						<word>com_set</word>
+
+						<word>compact</word>
+
+						<word>connection_aborted</word>
+
+						<word>connection_status</word>
+
+						<word>connection_timeout</word>
+
+						<word>convert_cyr_string</word>
+
+						<word>copy</word>
+
+						<word>cos</word>
+
+						<word>count</word>
+
+						<word>count_chars</word>
+
+						<word>cpdf_add_annotation</word>
+
+						<word>cpdf_add_outline</word>
+
+						<word>cpdf_arc</word>
+
+						<word>cpdf_begin_text</word>
+
+						<word>cpdf_circle</word>
+
+						<word>cpdf_clip</word>
+
+						<word>cpdf_close</word>
+
+						<word>cpdf_closepath</word>
+
+						<word>cpdf_closepath_fill_stroke</word>
+
+						<word>cpdf_closepath_stroke</word>
+
+						<word>cpdf_continue_text</word>
+
+						<word>cpdf_curveto</word>
+
+						<word>cpdf_end_text</word>
+
+						<word>cpdf_fill</word>
+
+						<word>cpdf_fill_stroke</word>
+
+						<word>cpdf_finalize</word>
+
+						<word>cpdf_finalize_page</word>
+
+						<word>cpdf_get_buffer</word>
+
+						<word>cpdf_global_set_document_limits</word>
+
+						<word>cpdf_import_jpeg</word>
+
+						<word>cpdf_lineto</word>
+
+						<word>cpdf_moveto</word>
+
+						<word>cpdf_newpath</word>
+
+						<word>cpdf_open</word>
+
+						<word>cpdf_output_buffer</word>
+
+						<word>cpdf_page_init</word>
+
+						<word>cpdf_place_inline_image</word>
+
+						<word>cpdf_rect</word>
+
+						<word>cpdf_restore</word>
+
+						<word>cpdf_rlineto</word>
+
+						<word>cpdf_rmoveto</word>
+
+						<word>cpdf_rotate</word>
+
+						<word>cpdf_rotate_text</word>
+
+						<word>cpdf_save</word>
+
+						<word>cpdf_save_to_file</word>
+
+						<word>cpdf_scale</word>
+
+						<word>cpdf_set_action_url</word>
+
+						<word>cpdf_set_annotation</word>
+
+						<word>cpdf_set_char_spacing</word>
+
+						<word>cpdf_set_creator</word>
+
+						<word>cpdf_set_current_page</word>
+
+						<word>cpdf_set_font</word>
+
+						<word>cpdf_set_horiz_scaling</word>
+
+						<word>cpdf_set_keywords</word>
+
+						<word>cpdf_set_leading</word>
+
+						<word>cpdf_set_page_animation</word>
+
+						<word>cpdf_set_subject</word>
+
+						<word>cpdf_set_text_matrix</word>
+
+						<word>cpdf_set_text_pos</word>
+
+						<word>cpdf_set_text_rendering</word>
+
+						<word>cpdf_set_text_rise</word>
+
+						<word>cpdf_set_title</word>
+
+						<word>cpdf_set_transition</word>
+
+						<word>cpdf_set_viewer_preferences</word>
+
+						<word>cpdf_set_word_spacing</word>
+
+						<word>cpdf_setdash</word>
+
+						<word>cpdf_setflat</word>
+
+						<word>cpdf_setgray</word>
+
+						<word>cpdf_setgray_fill</word>
+
+						<word>cpdf_setgray_stroke</word>
+
+						<word>cpdf_setlinecap</word>
+
+						<word>cpdf_setlinejoin</word>
+
+						<word>cpdf_setlinewidth</word>
+
+						<word>cpdf_setmiterlimit</word>
+
+						<word>cpdf_setrgbcolor</word>
+
+						<word>cpdf_setrgbcolor_fill</word>
+
+						<word>cpdf_setrgbcolor_stroke</word>
+
+						<word>cpdf_show</word>
+
+						<word>cpdf_show_xy</word>
+
+						<word>cpdf_stringwidth</word>
+
+						<word>cpdf_stroke</word>
+
+						<word>cpdf_text</word>
+
+						<word>cpdf_translate</word>
+
+						<word>crash</word>
+
+						<word>create_function</word>
+
+						<word>crypt</word>
+
+						<word>current</word>
+
+						<word>cybercash_base64_decode</word>
+
+						<word>cybercash_base64_encode</word>
+
+						<word>cybercash_decr</word>
+
+						<word>cybercash_encr</word>
+
+						<word>date</word>
+
+						<word>dav_set_mkcol_handlers</word>
+
+						<word>dba_close</word>
+
+						<word>dba_delete</word>
+
+						<word>dba_exists</word>
+
+						<word>dba_fetch</word>
+
+						<word>dba_firstkey</word>
+
+						<word>dba_insert</word>
+
+						<word>dba_nextkey</word>
+
+						<word>dba_open</word>
+
+						<word>dba_optimize</word>
+
+						<word>dba_popen</word>
+
+						<word>dba_replace</word>
+
+						<word>dba_sync</word>
+
+						<word>dbase_add_record</word>
+
+						<word>dbase_close</word>
+
+						<word>dbase_create</word>
+
+						<word>dbase_delete_record</word>
+
+						<word>dbase_get_record</word>
+
+						<word>dbase_get_record_with_names</word>
+
+						<word>dbase_numfields</word>
+
+						<word>dbase_numrecords</word>
+
+						<word>dbase_open</word>
+
+						<word>dbase_pack</word>
+
+						<word>dbase_replace_record</word>
+
+						<word>dblist</word>
+
+						<word>dbmclose</word>
+
+						<word>dbmdelete</word>
+
+						<word>dbmexists</word>
+
+						<word>dbmfetch</word>
+
+						<word>dbmfirstkey</word>
+
+						<word>dbminsert</word>
+
+						<word>dbmnextkey</word>
+
+						<word>dbmopen</word>
+
+						<word>dbmreplace</word>
+
+						<word>dcgettext</word>
+
+						<word>debugger_off</word>
+
+						<word>debugger_on</word>
+
+						<word>decbin</word>
+
+						<word>dechex</word>
+
+						<word>decoct</word>
+
+						<word>decrypt</word>
+
+						<word>define</word>
+
+						<word>define_syslog_variables</word>
+
+						<word>defined</word>
+
+						<word>deg2rad</word>
+
+						<word>dgettext</word>
+
+						<word>dir</word>
+
+						<word>dirname</word>
+
+						<word>diskfreespace</word>
+
+						<word>display_disabled_function</word>
+
+						<word>dl</word>
+
+						<word>domxml_add_root</word>
+
+						<word>domxml_attributes</word>
+
+						<word>domxml_children</word>
+
+						<word>domxml_dumpmem</word>
+
+						<word>domxml_getattr</word>
+
+						<word>domxml_new_child</word>
+
+						<word>domxml_new_xmldoc</word>
+
+						<word>domxml_node</word>
+
+						<word>domxml_root</word>
+
+						<word>domxml_setattr</word>
+
+						<word>domxml_test</word>
+
+						<word>doubleval</word>
+
+						<word>dtd</word>
+
+						<word>dumpmem</word>
+
+						<word>each</word>
+
+						<word>easter_date</word>
+
+						<word>easter_days</word>
+
+						<word>encrypt</word>
+
+						<word>end</word>
+
+						<word>ereg</word>
+
+						<word>ereg_replace</word>
+
+						<word>eregi</word>
+
+						<word>eregi_replace</word>
+
+						<word>error_log</word>
+
+						<word>error_reporting</word>
+
+						<word>escapeshellcmd</word>
+
+						<word>exec</word>
+
+						<word>exp</word>
+
+						<word>explode</word>
+
+						<word>extension_loaded</word>
+
+						<word>extract</word>
+
+						<word>fclose</word>
+
+						<word>fd_isset</word>
+
+						<word>fd_set</word>
+
+						<word>fdf_add_template</word>
+
+						<word>fdf_close</word>
+
+						<word>fdf_create</word>
+
+						<word>fdf_get_file</word>
+
+						<word>fdf_get_status</word>
+
+						<word>fdf_get_value</word>
+
+						<word>fdf_next_field_name</word>
+
+						<word>fdf_open</word>
+
+						<word>fdf_save</word>
+
+						<word>fdf_set_ap</word>
+
+						<word>fdf_set_file</word>
+
+						<word>fdf_set_status</word>
+
+						<word>fdf_set_value</word>
+
+						<word>feof</word>
+
+						<word>fflush</word>
+
+						<word>fgetc</word>
+
+						<word>fgetcsv</word>
+
+						<word>fgets</word>
+
+						<word>fgetss</word>
+
+						<word>file</word>
+
+						<word>file_exists</word>
+
+						<word>fileatime</word>
+
+						<word>filectime</word>
+
+						<word>filegroup</word>
+
+						<word>fileinode</word>
+
+						<word>filemtime</word>
+
+						<word>fileowner</word>
+
+						<word>fileperms</word>
+
+						<word>filepro</word>
+
+						<word>filepro_fieldcount</word>
+
+						<word>filepro_fieldname</word>
+
+						<word>filepro_fieldtype</word>
+
+						<word>filepro_fieldwidth</word>
+
+						<word>filepro_retrieve</word>
+
+						<word>filepro_rowcount</word>
+
+						<word>filesize</word>
+
+						<word>filetype</word>
+
+						<word>flock</word>
+
+						<word>floor</word>
+
+						<word>flush</word>
+
+						<word>fopen</word>
+
+						<word>fpassthru</word>
+
+						<word>fputs</word>
+
+						<word>fread</word>
+
+						<word>free</word>
+
+						<word>freemagick</word>
+
+						<word>frenchtojd</word>
+
+						<word>fscanf</word>
+
+						<word>fseek</word>
+
+						<word>fsockopen</word>
+
+						<word>fstat</word>
+
+						<word>ftell</word>
+
+						<word>ftp_cdup</word>
+
+						<word>ftp_chdir</word>
+
+						<word>ftp_connect</word>
+
+						<word>ftp_delete</word>
+
+						<word>ftp_fget</word>
+
+						<word>ftp_fput</word>
+
+						<word>ftp_get</word>
+
+						<word>ftp_login</word>
+
+						<word>ftp_mdtm</word>
+
+						<word>ftp_mkdir</word>
+
+						<word>ftp_nlist</word>
+
+						<word>ftp_pasv</word>
+
+						<word>ftp_put</word>
+
+						<word>ftp_pwd</word>
+
+						<word>ftp_quit</word>
+
+						<word>ftp_rawlist</word>
+
+						<word>ftp_rename</word>
+
+						<word>ftp_rmdir</word>
+
+						<word>ftp_site</word>
+
+						<word>ftp_size</word>
+
+						<word>ftp_systype</word>
+
+						<word>ftruncate</word>
+
+						<word>func_get_arg</word>
+
+						<word>func_get_args</word>
+
+						<word>func_num_args</word>
+
+						<word>function_exists</word>
+
+						<word>fwrite</word>
+
+						<word>gamma_correct_tag</word>
+
+						<word>get_browser</word>
+
+						<word>get_cfg_var</word>
+
+						<word>get_class</word>
+
+						<word>get_class_methods</word>
+
+						<word>get_class_vars</word>
+
+						<word>get_current_user</word>
+
+						<word>get_declared_classes</word>
+
+						<word>get_extension_funcs</word>
+
+						<word>get_html_translation_table</word>
+
+						<word>get_imported_files</word>
+
+						<word>get_included_files</word>
+
+						<word>get_loaded_extensions</word>
+
+						<word>get_magic_quotes_gpc</word>
+
+						<word>get_magic_quotes_runtime</word>
+
+						<word>get_meta_tags</word>
+
+						<word>get_object_vars</word>
+
+						<word>get_parent_class</word>
+
+						<word>get_required_files</word>
+
+						<word>get_used_files</word>
+
+						<word>getallheaders</word>
+
+						<word>getattr</word>
+
+						<word>getcwd</word>
+
+						<word>getdate</word>
+
+						<word>getenv</word>
+
+						<word>gethostbyaddr</word>
+
+						<word>gethostbyname</word>
+
+						<word>gethostbynamel</word>
+
+						<word>getimagesize</word>
+
+						<word>getlastaccess</word>
+
+						<word>getlastbrowser</word>
+
+						<word>getlastemail</word>
+
+						<word>getlasthost</word>
+
+						<word>getlastmod</word>
+
+						<word>getlastref</word>
+
+						<word>getlogdir</word>
+
+						<word>getloghost</word>
+
+						<word>getmxrr</word>
+
+						<word>getmyiid</word>
+
+						<word>getmyinode</word>
+
+						<word>getmypid</word>
+
+						<word>getmyuid</word>
+
+						<word>getprotobyname</word>
+
+						<word>getprotobynumber</word>
+
+						<word>getrandmax</word>
+
+						<word>getrusage</word>
+
+						<word>getservbyname</word>
+
+						<word>getservbyport</word>
+
+						<word>getstartlogging</word>
+
+						<word>gettext</word>
+
+						<word>gettimeofday</word>
+
+						<word>gettoday</word>
+
+						<word>gettotal</word>
+
+						<word>gettype</word>
+
+						<word>gmdate</word>
+
+						<word>gmmktime</word>
+
+						<word>gmstrftime</word>
+
+						<word>gregoriantojd</word>
+
+						<word>gzclose</word>
+
+						<word>gzcompress</word>
+
+						<word>gzeof</word>
+
+						<word>gzfile</word>
+
+						<word>gzgetc</word>
+
+						<word>gzgets</word>
+
+						<word>gzgetss</word>
+
+						<word>gzopen</word>
+
+						<word>gzpassthru</word>
+
+						<word>gzputs</word>
+
+						<word>gzread</word>
+
+						<word>gzrewind</word>
+
+						<word>gzseek</word>
+
+						<word>gztell</word>
+
+						<word>gzuncompress</word>
+
+						<word>gzwrite</word>
+
+						<word>header</word>
+
+						<word>headers_sent</word>
+
+						<word>hebrev</word>
+
+						<word>hebrevc</word>
+
+						<word>hexdec</word>
+
+						<word>highlight_file</word>
+
+						<word>highlight_string</word>
+
+						<word>htmlentities</word>
+
+						<word>htmlspecialchars</word>
+
+						<word>hw_array2objrec</word>
+
+						<word>hw_changeobject</word>
+
+						<word>hw_children</word>
+
+						<word>hw_childrenobj</word>
+
+						<word>hw_close</word>
+
+						<word>hw_connect</word>
+
+						<word>hw_connection_info</word>
+
+						<word>hw_cp</word>
+
+						<word>hw_deleteobject</word>
+
+						<word>hw_docbyanchor</word>
+
+						<word>hw_docbyanchorobj</word>
+
+						<word>hw_document_attributes</word>
+
+						<word>hw_document_bodytag</word>
+
+						<word>hw_document_content</word>
+
+						<word>hw_document_setcontent</word>
+
+						<word>hw_document_size</word>
+
+						<word>hw_documentattributes</word>
+
+						<word>hw_documentbodytag</word>
+
+						<word>hw_documentcontent</word>
+
+						<word>hw_documentsetcontent</word>
+
+						<word>hw_documentsize</word>
+
+						<word>hw_dummy</word>
+
+						<word>hw_edittext</word>
+
+						<word>hw_error</word>
+
+						<word>hw_errormsg</word>
+
+						<word>hw_free_document</word>
+
+						<word>hw_getanchors</word>
+
+						<word>hw_getanchorsobj</word>
+
+						<word>hw_getandlock</word>
+
+						<word>hw_getcgi</word>
+
+						<word>hw_getchildcoll</word>
+
+						<word>hw_getchildcollobj</word>
+
+						<word>hw_getchilddoccoll</word>
+
+						<word>hw_getchilddoccollobj</word>
+
+						<word>hw_getobject</word>
+
+						<word>hw_getobjectbyquery</word>
+
+						<word>hw_getobjectbyquerycoll</word>
+
+						<word>hw_getobjectbyquerycollobj</word>
+
+						<word>hw_getobjectbyqueryobj</word>
+
+						<word>hw_getparents</word>
+
+						<word>hw_getparentsobj</word>
+
+						<word>hw_getrellink</word>
+
+						<word>hw_getremote</word>
+
+						<word>hw_getremotechildren</word>
+
+						<word>hw_getsrcbydestobj</word>
+
+						<word>hw_gettext</word>
+
+						<word>hw_getusername</word>
+
+						<word>hw_identify</word>
+
+						<word>hw_incollections</word>
+
+						<word>hw_info</word>
+
+						<word>hw_inscoll</word>
+
+						<word>hw_insdoc</word>
+
+						<word>hw_insertdocument</word>
+
+						<word>hw_insertobject</word>
+
+						<word>hw_mapid</word>
+
+						<word>hw_modifyobject</word>
+
+						<word>hw_mv</word>
+
+						<word>hw_new_document</word>
+
+						<word>hw_objrec2array</word>
+
+						<word>hw_output_document</word>
+
+						<word>hw_outputdocument</word>
+
+						<word>hw_pconnect</word>
+
+						<word>hw_pipecgi</word>
+
+						<word>hw_pipedocument</word>
+
+						<word>hw_root</word>
+
+						<word>hw_setlinkroot</word>
+
+						<word>hw_stat</word>
+
+						<word>hw_unlock</word>
+
+						<word>hw_who</word>
+
+						<word>ibase_bind</word>
+
+						<word>ibase_blob_add</word>
+
+						<word>ibase_blob_cancel</word>
+
+						<word>ibase_blob_close</word>
+
+						<word>ibase_blob_create</word>
+
+						<word>ibase_blob_echo</word>
+
+						<word>ibase_blob_get</word>
+
+						<word>ibase_blob_import</word>
+
+						<word>ibase_blob_info</word>
+
+						<word>ibase_blob_open</word>
+
+						<word>ibase_close</word>
+
+						<word>ibase_commit</word>
+
+						<word>ibase_connect</word>
+
+						<word>ibase_errmsg</word>
+
+						<word>ibase_execute</word>
+
+						<word>ibase_fetch_object</word>
+
+						<word>ibase_fetch_row</word>
+
+						<word>ibase_field_info</word>
+
+						<word>ibase_free_query</word>
+
+						<word>ibase_free_result</word>
+
+						<word>ibase_num_fields</word>
+
+						<word>ibase_pconnect</word>
+
+						<word>ibase_prepare</word>
+
+						<word>ibase_query</word>
+
+						<word>ibase_rollback</word>
+
+						<word>ibase_timefmt</word>
+
+						<word>ibase_trans</word>
+
+						<word>icap_create_calendar</word>
+
+						<word>icap_delete_calendar</word>
+
+						<word>icap_delete_event</word>
+
+						<word>icap_fetch_event</word>
+
+						<word>icap_list_alarms</word>
+
+						<word>icap_list_event</word>
+
+						<word>icap_list_events</word>
+
+						<word>icap_open</word>
+
+						<word>icap_popen</word>
+
+						<word>icap_rename_calendar</word>
+
+						<word>icap_reopen</word>
+
+						<word>icap_snooze</word>
+
+						<word>icap_store_event</word>
+
+						<word>ifx_affected_rows</word>
+
+						<word>ifx_blobinfile_mode</word>
+
+						<word>ifx_byteasvarchar</word>
+
+						<word>ifx_close</word>
+
+						<word>ifx_connect</word>
+
+						<word>ifx_copy_blob</word>
+
+						<word>ifx_create_blob</word>
+
+						<word>ifx_create_char</word>
+
+						<word>ifx_create_db</word>
+
+						<word>ifx_do</word>
+
+						<word>ifx_drop_db</word>
+
+						<word>ifx_error</word>
+
+						<word>ifx_errormsg</word>
+
+						<word>ifx_fetch_object</word>
+
+						<word>ifx_fetch_row</word>
+
+						<word>ifx_fieldproperties</word>
+
+						<word>ifx_fieldtypes</word>
+
+						<word>ifx_free_blob</word>
+
+						<word>ifx_free_char</word>
+
+						<word>ifx_free_result</word>
+
+						<word>ifx_get_blob</word>
+
+						<word>ifx_get_char</word>
+
+						<word>ifx_getsqlca</word>
+
+						<word>ifx_htmltbl_result</word>
+
+						<word>ifx_nullformat</word>
+
+						<word>ifx_num_fields</word>
+
+						<word>ifx_num_rows</word>
+
+						<word>ifx_pconnect</word>
+
+						<word>ifx_prepare</word>
+
+						<word>ifx_query</word>
+
+						<word>ifx_result</word>
+
+						<word>ifx_textasvarchar</word>
+
+						<word>ifx_update_blob</word>
+
+						<word>ifx_update_char</word>
+
+						<word>ifxus_close_slob</word>
+
+						<word>ifxus_create_slob</word>
+
+						<word>ifxus_free_slob</word>
+
+						<word>ifxus_open_slob</word>
+
+						<word>ifxus_read_slob</word>
+
+						<word>ifxus_seek_slob</word>
+
+						<word>ifxus_tell_slob</word>
+
+						<word>ifxus_write_slob</word>
+
+						<word>ignore_user_abort</word>
+
+						<word>imagearc</word>
+
+						<word>imagechar</word>
+
+						<word>imagecharup</word>
+
+						<word>imagecolorallocate</word>
+
+						<word>imagecolorat</word>
+
+						<word>imagecolorclosest</word>
+
+						<word>imagecolordeallocate</word>
+
+						<word>imagecolorexact</word>
+
+						<word>imagecolorresolve</word>
+
+						<word>imagecolorset</word>
+
+						<word>imagecolorsforindex</word>
+
+						<word>imagecolorstotal</word>
+
+						<word>imagecolortransparent</word>
+
+						<word>imagecopy</word>
+
+						<word>imagecopyresized</word>
+
+						<word>imagecreate</word>
+
+						<word>imagecreatefromgif</word>
+
+						<word>imagecreatefromjpeg</word>
+
+						<word>imagecreatefrompng</word>
+
+						<word>imagecreatefromxbm</word>
+
+						<word>imagecreatefromxpm</word>
+
+						<word>imagedashedline</word>
+
+						<word>imagedestroy</word>
+
+						<word>imagefill</word>
+
+						<word>imagefilledpolygon</word>
+
+						<word>imagefilledrectangle</word>
+
+						<word>imagefilltoborder</word>
+
+						<word>imagefontheight</word>
+
+						<word>imagefontwidth</word>
+
+						<word>imagegammacorrect</word>
+
+						<word>imagegif</word>
+
+						<word>imageinterlace</word>
+
+						<word>imagejpeg</word>
+
+						<word>imageline</word>
+
+						<word>imageloadfont</word>
+
+						<word>imagepng</word>
+
+						<word>imagepolygon</word>
+
+						<word>imagepsbbox</word>
+
+						<word>imagepscopyfont</word>
+
+						<word>imagepsencodefont</word>
+
+						<word>imagepsextendfont</word>
+
+						<word>imagepsfreefont</word>
+
+						<word>imagepsloadfont</word>
+
+						<word>imagepsslantfont</word>
+
+						<word>imagepstext</word>
+
+						<word>imagerectangle</word>
+
+						<word>imagesetpixel</word>
+
+						<word>imagestring</word>
+
+						<word>imagestringup</word>
+
+						<word>imagesx</word>
+
+						<word>imagesy</word>
+
+						<word>imagettfbbox</word>
+
+						<word>imagettftext</word>
+
+						<word>imagewbmp</word>
+
+						<word>imap_8bit</word>
+
+						<word>imap_alerts</word>
+
+						<word>imap_append</word>
+
+						<word>imap_base64</word>
+
+						<word>imap_binary</word>
+
+						<word>imap_body</word>
+
+						<word>imap_bodystruct</word>
+
+						<word>imap_check</word>
+
+						<word>imap_clearflag_full</word>
+
+						<word>imap_close</word>
+
+						<word>imap_create</word>
+
+						<word>imap_createmailbox</word>
+
+						<word>imap_delete</word>
+
+						<word>imap_deletemailbox</word>
+
+						<word>imap_errors</word>
+
+						<word>imap_expunge</word>
+
+						<word>imap_fetch_overview</word>
+
+						<word>imap_fetchbody</word>
+
+						<word>imap_fetchheader</word>
+
+						<word>imap_fetchstructure</word>
+
+						<word>imap_fetchtext</word>
+
+						<word>imap_getmailboxes</word>
+
+						<word>imap_getsubscribed</word>
+
+						<word>imap_header</word>
+
+						<word>imap_headerinfo</word>
+
+						<word>imap_headers</word>
+
+						<word>imap_last_error</word>
+
+						<word>imap_list</word>
+
+						<word>imap_listmailbox</word>
+
+						<word>imap_listsubscribed</word>
+
+						<word>imap_lsub</word>
+
+						<word>imap_mail</word>
+
+						<word>imap_mail_compose</word>
+
+						<word>imap_mail_copy</word>
+
+						<word>imap_mail_move</word>
+
+						<word>imap_mailboxmsginfo</word>
+
+						<word>imap_mime_header_decode</word>
+
+						<word>imap_msgno</word>
+
+						<word>imap_num_msg</word>
+
+						<word>imap_num_recent</word>
+
+						<word>imap_open</word>
+
+						<word>imap_ping</word>
+
+						<word>imap_popen</word>
+
+						<word>imap_qprint</word>
+
+						<word>imap_rename</word>
+
+						<word>imap_renamemailbox</word>
+
+						<word>imap_reopen</word>
+
+						<word>imap_rfc822_parse_adrlist</word>
+
+						<word>imap_rfc822_parse_headers</word>
+
+						<word>imap_rfc822_write_address</word>
+
+						<word>imap_scan</word>
+
+						<word>imap_scanmailbox</word>
+
+						<word>imap_search</word>
+
+						<word>imap_setflag_full</word>
+
+						<word>imap_sort</word>
+
+						<word>imap_status</word>
+
+						<word>imap_subscribe</word>
+
+						<word>imap_uid</word>
+
+						<word>imap_undelete</word>
+
+						<word>imap_unsubscribe</word>
+
+						<word>imap_utf7_decode</word>
+
+						<word>imap_utf7_encode</word>
+
+						<word>imap_utf8</word>
+
+						<word>implode</word>
+
+						<word>imsp_abook_create</word>
+
+						<word>imsp_abook_delete</word>
+
+						<word>imsp_abook_deleteent</word>
+
+						<word>imsp_abook_expand</word>
+
+						<word>imsp_abook_fetch</word>
+
+						<word>imsp_abook_find</word>
+
+						<word>imsp_abook_getlist</word>
+
+						<word>imsp_abook_lock</word>
+
+						<word>imsp_abook_rename</word>
+
+						<word>imsp_abook_search</word>
+
+						<word>imsp_abook_store</word>
+
+						<word>imsp_abook_unlock</word>
+
+						<word>imsp_close</word>
+
+						<word>imsp_open</word>
+
+						<word>imsp_option_get</word>
+
+						<word>imsp_option_set</word>
+
+						<word>imsp_option_unset</word>
+
+						<word>in_array</word>
+
+						<word>ini_alter</word>
+
+						<word>ini_get</word>
+
+						<word>ini_restore</word>
+
+						<word>ini_set</word>
+
+						<word>intval</word>
+
+						<word>ip2long</word>
+
+						<word>iptcembed</word>
+
+						<word>iptcparse</word>
+
+						<word>is_array</word>
+
+						<word>is_bool</word>
+
+						<word>is_dir</word>
+
+						<word>is_double</word>
+
+						<word>is_executable</word>
+
+						<word>is_file</word>
+
+						<word>is_float</word>
+
+						<word>is_int</word>
+
+						<word>is_integer</word>
+
+						<word>is_link</word>
+
+						<word>is_long</word>
+
+						<word>is_numeric</word>
+
+						<word>is_object</word>
+
+						<word>is_readable</word>
+
+						<word>is_real</word>
+
+						<word>is_resource</word>
+
+						<word>is_string</word>
+
+						<word>is_subclass_of</word>
+
+						<word>is_writable</word>
+
+						<word>is_writeable</word>
+
+						<word>jddayofweek</word>
+
+						<word>jdmonthname</word>
+
+						<word>jdtofrench</word>
+
+						<word>jdtogregorian</word>
+
+						<word>jdtojewish</word>
+
+						<word>jdtojulian</word>
+
+						<word>jdtounix</word>
+
+						<word>jewishtojd</word>
+
+						<word>join</word>
+
+						<word>juliantojd</word>
+
+						<word>key</word>
+
+						<word>krsort</word>
+
+						<word>ksort</word>
+
+						<word>lastchild</word>
+
+						<word>lcg_value</word>
+
+						<word>ldap_add</word>
+
+						<word>ldap_bind</word>
+
+						<word>ldap_close</word>
+
+						<word>ldap_connect</word>
+
+						<word>ldap_count_entries</word>
+
+						<word>ldap_delete</word>
+
+						<word>ldap_dn2ufn</word>
+
+						<word>ldap_err2str</word>
+
+						<word>ldap_errno</word>
+
+						<word>ldap_error</word>
+
+						<word>ldap_explode_dn</word>
+
+						<word>ldap_first_attribute</word>
+
+						<word>ldap_first_entry</word>
+
+						<word>ldap_free_entry</word>
+
+						<word>ldap_free_result</word>
+
+						<word>ldap_get_attributes</word>
+
+						<word>ldap_get_dn</word>
+
+						<word>ldap_get_entries</word>
+
+						<word>ldap_get_values</word>
+
+						<word>ldap_get_values_len</word>
+
+						<word>ldap_list</word>
+
+						<word>ldap_mod_add</word>
+
+						<word>ldap_mod_del</word>
+
+						<word>ldap_mod_replace</word>
+
+						<word>ldap_modify</word>
+
+						<word>ldap_next_attribute</word>
+
+						<word>ldap_next_entry</word>
+
+						<word>ldap_read</word>
+
+						<word>ldap_search</word>
+
+						<word>ldap_str2err</word>
+
+						<word>ldap_unbind</word>
+
+						<word>leak</word>
+
+						<word>levenshtein</word>
+
+						<word>link</word>
+
+						<word>linkinfo</word>
+
+						<word>load</word>
+
+						<word>localtime</word>
+
+						<word>log</word>
+
+						<word>log10</word>
+
+						<word>logas</word>
+
+						<word>long2ip</word>
+
+						<word>lstat</word>
+
+						<word>ltrim</word>
+
+						<word>magic_quotes_runtime</word>
+
+						<word>magickdebug</word>
+
+						<word>mail</word>
+
+						<word>max</word>
+
+						<word>mcal_append_event</word>
+
+						<word>mcal_close</word>
+
+						<word>mcal_create_calendar</word>
+
+						<word>mcal_date_compare</word>
+
+						<word>mcal_date_valid</word>
+
+						<word>mcal_day_of_week</word>
+
+						<word>mcal_day_of_year</word>
+
+						<word>mcal_days_in_month</word>
+
+						<word>mcal_delete_calendar</word>
+
+						<word>mcal_delete_event</word>
+
+						<word>mcal_event_add_attribute</word>
+
+						<word>mcal_event_init</word>
+
+						<word>mcal_event_set_alarm</word>
+
+						<word>mcal_event_set_category</word>
+
+						<word>mcal_event_set_class</word>
+
+						<word>mcal_event_set_description</word>
+
+						<word>mcal_event_set_end</word>
+
+						<word>mcal_event_set_end_now</word>
+
+						<word>mcal_event_set_recur_daily</word>
+
+						<word>mcal_event_set_recur_monthly_mday</word>
+
+						<word>mcal_event_set_recur_monthly_wday</word>
+
+						<word>mcal_event_set_recur_none</word>
+
+						<word>mcal_event_set_recur_weekly</word>
+
+						<word>mcal_event_set_recur_yearly</word>
+
+						<word>mcal_event_set_start</word>
+
+						<word>mcal_event_set_start_now</word>
+
+						<word>mcal_event_set_title</word>
+
+						<word>mcal_fetch_current_stream_event</word>
+
+						<word>mcal_fetch_event</word>
+
+						<word>mcal_is_leap_year</word>
+
+						<word>mcal_list_alarms</word>
+
+						<word>mcal_list_events</word>
+
+						<word>mcal_next_recurrence</word>
+
+						<word>mcal_open</word>
+
+						<word>mcal_popen</word>
+
+						<word>mcal_rename_calendar</word>
+
+						<word>mcal_reopen</word>
+
+						<word>mcal_snooze</word>
+
+						<word>mcal_store_event</word>
+
+						<word>mcal_time_valid</word>
+
+						<word>mcal_week_of_year</word>
+
+						<word>mck_base64_decode</word>
+
+						<word>mck_base64_encode</word>
+
+						<word>mck_decr</word>
+
+						<word>mck_encr</word>
+
+						<word>mcrypt_cbc</word>
+
+						<word>mcrypt_cfb</word>
+
+						<word>mcrypt_create_iv</word>
+
+						<word>mcrypt_ecb</word>
+
+						<word>mcrypt_get_block_size</word>
+
+						<word>mcrypt_get_cipher_name</word>
+
+						<word>mcrypt_get_key_size</word>
+
+						<word>mcrypt_ofb</word>
+
+						<word>md5</word>
+
+						<word>metaphone</word>
+
+						<word>method_exists</word>
+
+						<word>mhash</word>
+
+						<word>mhash_count</word>
+
+						<word>mhash_get_block_size</word>
+
+						<word>mhash_get_hash_name</word>
+
+						<word>microtime</word>
+
+						<word>min</word>
+
+						<word>mkdir</word>
+
+						<word>mktime</word>
+
+						<word>msql</word>
+
+						<word>msql_affected_rows</word>
+
+						<word>msql_close</word>
+
+						<word>msql_connect</word>
+
+						<word>msql_create_db</word>
+
+						<word>msql_createdb</word>
+
+						<word>msql_data_seek</word>
+
+						<word>msql_db_query</word>
+
+						<word>msql_dbname</word>
+
+						<word>msql_drop_db</word>
+
+						<word>msql_dropdb</word>
+
+						<word>msql_error</word>
+
+						<word>msql_fetch_array</word>
+
+						<word>msql_fetch_field</word>
+
+						<word>msql_fetch_object</word>
+
+						<word>msql_fetch_row</word>
+
+						<word>msql_field_flags</word>
+
+						<word>msql_field_len</word>
+
+						<word>msql_field_name</word>
+
+						<word>msql_field_seek</word>
+
+						<word>msql_field_table</word>
+
+						<word>msql_field_type</word>
+
+						<word>msql_fieldflags</word>
+
+						<word>msql_fieldlen</word>
+
+						<word>msql_fieldname</word>
+
+						<word>msql_fieldtable</word>
+
+						<word>msql_fieldtype</word>
+
+						<word>msql_free_result</word>
+
+						<word>msql_freeresult</word>
+
+						<word>msql_list_dbs</word>
+
+						<word>msql_list_fields</word>
+
+						<word>msql_list_tables</word>
+
+						<word>msql_listdbs</word>
+
+						<word>msql_listfields</word>
+
+						<word>msql_listtables</word>
+
+						<word>msql_num_fields</word>
+
+						<word>msql_num_rows</word>
+
+						<word>msql_numfields</word>
+
+						<word>msql_numrows</word>
+
+						<word>msql_pconnect</word>
+
+						<word>msql_query</word>
+
+						<word>msql_regcase</word>
+
+						<word>msql_result</word>
+
+						<word>msql_select_db</word>
+
+						<word>msql_selectdb</word>
+
+						<word>msql_tablename</word>
+
+						<word>mssql_affected_rows</word>
+
+						<word>mssql_close</word>
+
+						<word>mssql_connect</word>
+
+						<word>mssql_data_seek</word>
+
+						<word>mssql_fetch_array</word>
+
+						<word>mssql_fetch_field</word>
+
+						<word>mssql_fetch_object</word>
+
+						<word>mssql_fetch_row</word>
+
+						<word>mssql_field_length</word>
+
+						<word>mssql_field_name</word>
+
+						<word>mssql_field_seek</word>
+
+						<word>mssql_field_type</word>
+
+						<word>mssql_free_result</word>
+
+						<word>mssql_get_last_message</word>
+
+						<word>mssql_min_client_severity</word>
+
+						<word>mssql_min_error_severity</word>
+
+						<word>mssql_min_message_severity</word>
+
+						<word>mssql_min_server_severity</word>
+
+						<word>mssql_num_fields</word>
+
+						<word>mssql_num_rows</word>
+
+						<word>mssql_pconnect</word>
+
+						<word>mssql_query</word>
+
+						<word>mssql_result</word>
+
+						<word>mssql_select_db</word>
+
+						<word>mt_getrandmax</word>
+
+						<word>mt_rand</word>
+
+						<word>mt_srand</word>
+
+						<word>mysql</word>
+
+						<word>mysql_affected_rows</word>
+
+						<word>mysql_change_user</word>
+
+						<word>mysql_close</word>
+
+						<word>mysql_connect</word>
+
+						<word>mysql_create_db</word>
+
+						<word>mysql_createdb</word>
+
+						<word>mysql_data_seek</word>
+
+						<word>mysql_db_name</word>
+
+						<word>mysql_db_query</word>
+
+						<word>mysql_dbname</word>
+
+						<word>mysql_drop_db</word>
+
+						<word>mysql_dropdb</word>
+
+						<word>mysql_errno</word>
+
+						<word>mysql_error</word>
+
+						<word>mysql_fetch_array</word>
+
+						<word>mysql_fetch_field</word>
+
+						<word>mysql_fetch_lengths</word>
+
+						<word>mysql_fetch_object</word>
+
+						<word>mysql_fetch_row</word>
+
+						<word>mysql_field_flags</word>
+
+						<word>mysql_field_len</word>
+
+						<word>mysql_field_name</word>
+
+						<word>mysql_field_seek</word>
+
+						<word>mysql_field_table</word>
+
+						<word>mysql_field_type</word>
+
+						<word>mysql_fieldflags</word>
+
+						<word>mysql_fieldlen</word>
+
+						<word>mysql_fieldname</word>
+
+						<word>mysql_fieldtable</word>
+
+						<word>mysql_fieldtype</word>
+
+						<word>mysql_free_result</word>
+
+						<word>mysql_freeresult</word>
+
+						<word>mysql_insert_id</word>
+
+						<word>mysql_list_dbs</word>
+
+						<word>mysql_list_fields</word>
+
+						<word>mysql_list_tables</word>
+
+						<word>mysql_listdbs</word>
+
+						<word>mysql_listfields</word>
+
+						<word>mysql_listtables</word>
+
+						<word>mysql_num_fields</word>
+
+						<word>mysql_num_rows</word>
+
+						<word>mysql_numfields</word>
+
+						<word>mysql_numrows</word>
+
+						<word>mysql_pconnect</word>
+
+						<word>mysql_query</word>
+
+						<word>mysql_result</word>
+
+						<word>mysql_select_db</word>
+
+						<word>mysql_selectdb</word>
+
+						<word>mysql_tablename</word>
+
+						<word>name</word>
+
+						<word>natcasesort</word>
+
+						<word>natsort</word>
+
+						<word>new_child</word>
+
+						<word>new_xmldoc</word>
+
+						<word>next</word>
+
+						<word>nl2br</word>
+
+						<word>node</word>
+
+						<word>number_format</word>
+
+						<word>ob_end_clean</word>
+
+						<word>ob_end_flush</word>
+
+						<word>ob_get_contents</word>
+
+						<word>ob_implicit_flush</word>
+
+						<word>ob_start</word>
+
+						<word>ocibindbyname</word>
+
+						<word>ocicancel</word>
+
+						<word>ocicolumnisnull</word>
+
+						<word>ocicolumnname</word>
+
+						<word>ocicolumnprecision</word>
+
+						<word>ocicolumnscale</word>
+
+						<word>ocicolumnsize</word>
+
+						<word>ocicolumntype</word>
+
+						<word>ocicolumntyperaw</word>
+
+						<word>ocicommit</word>
+
+						<word>ocidefinebyname</word>
+
+						<word>ocierror</word>
+
+						<word>ociexecute</word>
+
+						<word>ocifetch</word>
+
+						<word>ocifetchinto</word>
+
+						<word>ocifetchstatement</word>
+
+						<word>ocifreecursor</word>
+
+						<word>ocifreedesc</word>
+
+						<word>ocifreedescriptor</word>
+
+						<word>ocifreestatement</word>
+
+						<word>ociinternaldebug</word>
+
+						<word>ociloaddesc</word>
+
+						<word>ociloadlob</word>
+
+						<word>ocilogoff</word>
+
+						<word>ocilogon</word>
+
+						<word>ocinewcursor</word>
+
+						<word>ocinewdescriptor</word>
+
+						<word>ocinlogon</word>
+
+						<word>ocinumcols</word>
+
+						<word>ociparse</word>
+
+						<word>ociplogon</word>
+
+						<word>ociresult</word>
+
+						<word>ocirollback</word>
+
+						<word>ocirowcount</word>
+
+						<word>ocisavedesc</word>
+
+						<word>ocisavedescfile</word>
+
+						<word>ocisavelob</word>
+
+						<word>ocisavelobfile</word>
+
+						<word>ociserverversion</word>
+
+						<word>ocisetprefetch</word>
+
+						<word>ocistatementtype</word>
+
+						<word>ocitest</word>
+
+						<word>ocitest2</word>
+
+						<word>ociwritelobtofile</word>
+
+						<word>octdec</word>
+
+						<word>odbc_autocommit</word>
+
+						<word>odbc_binmode</word>
+
+						<word>odbc_close</word>
+
+						<word>odbc_close_all</word>
+
+						<word>odbc_columnprivileges</word>
+
+						<word>odbc_columns</word>
+
+						<word>odbc_commit</word>
+
+						<word>odbc_connect</word>
+
+						<word>odbc_cursor</word>
+
+						<word>odbc_define</word>
+
+						<word>odbc_do</word>
+
+						<word>odbc_exec</word>
+
+						<word>odbc_execute</word>
+
+						<word>odbc_fetch_into</word>
+
+						<word>odbc_fetch_row</word>
+
+						<word>odbc_field_len</word>
+
+						<word>odbc_field_name</word>
+
+						<word>odbc_field_num</word>
+
+						<word>odbc_field_precision</word>
+
+						<word>odbc_field_scale</word>
+
+						<word>odbc_field_type</word>
+
+						<word>odbc_foreignkeys</word>
+
+						<word>odbc_free_result</word>
+
+						<word>odbc_gettypeinfo</word>
+
+						<word>odbc_longreadlen</word>
+
+						<word>odbc_num_fields</word>
+
+						<word>odbc_num_rows</word>
+
+						<word>odbc_pconnect</word>
+
+						<word>odbc_prepare</word>
+
+						<word>odbc_primarykeys</word>
+
+						<word>odbc_procedurecolumns</word>
+
+						<word>odbc_procedures</word>
+
+						<word>odbc_result</word>
+
+						<word>odbc_result_all</word>
+
+						<word>odbc_rollback</word>
+
+						<word>odbc_setoption</word>
+
+						<word>odbc_specialcolumns</word>
+
+						<word>odbc_statistics</word>
+
+						<word>odbc_tableprivileges</word>
+
+						<word>odbc_tables</word>
+
+						<word>opendir</word>
+
+						<word>openlog</word>
+
+						<word>ora_bind</word>
+
+						<word>ora_close</word>
+
+						<word>ora_columnname</word>
+
+						<word>ora_columnsize</word>
+
+						<word>ora_columntype</word>
+
+						<word>ora_commit</word>
+
+						<word>ora_commitoff</word>
+
+						<word>ora_commiton</word>
+
+						<word>ora_do</word>
+
+						<word>ora_error</word>
+
+						<word>ora_errorcode</word>
+
+						<word>ora_exec</word>
+
+						<word>ora_fetch</word>
+
+						<word>ora_fetch_into</word>
+
+						<word>ora_getcolumn</word>
+
+						<word>ora_logoff</word>
+
+						<word>ora_logon</word>
+
+						<word>ora_numcols</word>
+
+						<word>ora_numrows</word>
+
+						<word>ora_open</word>
+
+						<word>ora_parse</word>
+
+						<word>ora_plogon</word>
+
+						<word>ora_rollback</word>
+
+						<word>ord</word>
+
+						<word>pack</word>
+
+						<word>parent</word>
+
+						<word>parse_ini_file</word>
+
+						<word>parse_str</word>
+
+						<word>parse_url</word>
+
+						<word>passthru</word>
+
+						<word>pclose</word>
+
+						<word>pdf_add_annotation</word>
+
+						<word>pdf_add_bookmark</word>
+
+						<word>pdf_add_outline</word>
+
+						<word>pdf_add_pdflink</word>
+
+						<word>pdf_add_weblink</word>
+
+						<word>pdf_arc</word>
+
+						<word>pdf_begin_page</word>
+
+						<word>pdf_circle</word>
+
+						<word>pdf_clip</word>
+
+						<word>pdf_close</word>
+
+						<word>pdf_close_image</word>
+
+						<word>pdf_closepath</word>
+
+						<word>pdf_closepath_fill_stroke</word>
+
+						<word>pdf_closepath_stroke</word>
+
+						<word>pdf_continue_text</word>
+
+						<word>pdf_curveto</word>
+
+						<word>pdf_end_page</word>
+
+						<word>pdf_endpath</word>
+
+						<word>pdf_execute_image</word>
+
+						<word>pdf_fill</word>
+
+						<word>pdf_fill_stroke</word>
+
+						<word>pdf_get_font</word>
+
+						<word>pdf_get_fontname</word>
+
+						<word>pdf_get_fontsize</word>
+
+						<word>pdf_get_image_height</word>
+
+						<word>pdf_get_image_width</word>
+
+						<word>pdf_get_info</word>
+
+						<word>pdf_get_parameter</word>
+
+						<word>pdf_get_value</word>
+
+						<word>pdf_lineto</word>
+
+						<word>pdf_moveto</word>
+
+						<word>pdf_open</word>
+
+						<word>pdf_open_gif</word>
+
+						<word>pdf_open_image_file</word>
+
+						<word>pdf_open_jpeg</word>
+
+						<word>pdf_open_memory_image</word>
+
+						<word>pdf_open_png</word>
+
+						<word>pdf_open_tiff</word>
+
+						<word>pdf_place_image</word>
+
+						<word>pdf_put_image</word>
+
+						<word>pdf_rect</word>
+
+						<word>pdf_restore</word>
+
+						<word>pdf_rotate</word>
+
+						<word>pdf_save</word>
+
+						<word>pdf_scale</word>
+
+						<word>pdf_set_border_color</word>
+
+						<word>pdf_set_border_dash</word>
+
+						<word>pdf_set_border_style</word>
+
+						<word>pdf_set_char_spacing</word>
+
+						<word>pdf_set_duration</word>
+
+						<word>pdf_set_font</word>
+
+						<word>pdf_set_horiz_scaling</word>
+
+						<word>pdf_set_info</word>
+
+						<word>pdf_set_info_author</word>
+
+						<word>pdf_set_info_creator</word>
+
+						<word>pdf_set_info_keywords</word>
+
+						<word>pdf_set_info_subject</word>
+
+						<word>pdf_set_info_title</word>
+
+						<word>pdf_set_leading</word>
+
+						<word>pdf_set_parameter</word>
+
+						<word>pdf_set_text_matrix</word>
+
+						<word>pdf_set_text_pos</word>
+
+						<word>pdf_set_text_rendering</word>
+
+						<word>pdf_set_text_rise</word>
+
+						<word>pdf_set_transition</word>
+
+						<word>pdf_set_value</word>
+
+						<word>pdf_set_word_spacing</word>
+
+						<word>pdf_setdash</word>
+
+						<word>pdf_setflat</word>
+
+						<word>pdf_setgray</word>
+
+						<word>pdf_setgray_fill</word>
+
+						<word>pdf_setgray_stroke</word>
+
+						<word>pdf_setlinecap</word>
+
+						<word>pdf_setlinejoin</word>
+
+						<word>pdf_setlinewidth</word>
+
+						<word>pdf_setmiterlimit</word>
+
+						<word>pdf_setrgbcolor</word>
+
+						<word>pdf_setrgbcolor_fill</word>
+
+						<word>pdf_setrgbcolor_stroke</word>
+
+						<word>pdf_show</word>
+
+						<word>pdf_show_boxed</word>
+
+						<word>pdf_show_xy</word>
+
+						<word>pdf_skew</word>
+
+						<word>pdf_stringwidth</word>
+
+						<word>pdf_stroke</word>
+
+						<word>pdf_translate</word>
+
+						<word>pfsockopen</word>
+
+						<word>pg_close</word>
+
+						<word>pg_cmdtuples</word>
+
+						<word>pg_connect</word>
+
+						<word>pg_dbname</word>
+
+						<word>pg_errormessage</word>
+
+						<word>pg_exec</word>
+
+						<word>pg_fetch_array</word>
+
+						<word>pg_fetch_object</word>
+
+						<word>pg_fetch_row</word>
+
+						<word>pg_fieldisnull</word>
+
+						<word>pg_fieldname</word>
+
+						<word>pg_fieldnum</word>
+
+						<word>pg_fieldprtlen</word>
+
+						<word>pg_fieldsize</word>
+
+						<word>pg_fieldtype</word>
+
+						<word>pg_freeresult</word>
+
+						<word>pg_getlastoid</word>
+
+						<word>pg_host</word>
+
+						<word>pg_loclose</word>
+
+						<word>pg_locreate</word>
+
+						<word>pg_loexport</word>
+
+						<word>pg_loimport</word>
+
+						<word>pg_loopen</word>
+
+						<word>pg_loread</word>
+
+						<word>pg_loreadall</word>
+
+						<word>pg_lounlink</word>
+
+						<word>pg_lowrite</word>
+
+						<word>pg_numfields</word>
+
+						<word>pg_numrows</word>
+
+						<word>pg_options</word>
+
+						<word>pg_pconnect</word>
+
+						<word>pg_port</word>
+
+						<word>pg_result</word>
+
+						<word>pg_trace</word>
+
+						<word>pg_tty</word>
+
+						<word>pg_untrace</word>
+
+						<word>php_logo_guid</word>
+
+						<word>phpcredits</word>
+
+						<word>phpinfo</word>
+
+						<word>phpversion</word>
+
+						<word>pi</word>
+
+						<word>popen</word>
+
+						<word>pos</word>
+
+						<word>posix_ctermid</word>
+
+						<word>posix_getcwd</word>
+
+						<word>posix_getegid</word>
+
+						<word>posix_geteuid</word>
+
+						<word>posix_getgid</word>
+
+						<word>posix_getgrgid</word>
+
+						<word>posix_getgrnam</word>
+
+						<word>posix_getgroups</word>
+
+						<word>posix_getlogin</word>
+
+						<word>posix_getpgid</word>
+
+						<word>posix_getpgrp</word>
+
+						<word>posix_getpid</word>
+
+						<word>posix_getppid</word>
+
+						<word>posix_getpwnam</word>
+
+						<word>posix_getpwuid</word>
+
+						<word>posix_getrlimit</word>
+
+						<word>posix_getsid</word>
+
+						<word>posix_getuid</word>
+
+						<word>posix_isatty</word>
+
+						<word>posix_kill</word>
+
+						<word>posix_mkfifo</word>
+
+						<word>posix_setgid</word>
+
+						<word>posix_setpgid</word>
+
+						<word>posix_setsid</word>
+
+						<word>posix_setuid</word>
+
+						<word>posix_times</word>
+
+						<word>posix_ttyname</word>
+
+						<word>posix_uname</word>
+
+						<word>pow</word>
+
+						<word>preg_grep</word>
+
+						<word>preg_match</word>
+
+						<word>preg_match_all</word>
+
+						<word>preg_quote</word>
+
+						<word>preg_replace</word>
+
+						<word>preg_split</word>
+
+						<word>prev</word>
+
+						<word>print_r</word>
+
+						<word>printf</word>
+
+						<word>putenv</word>
+
+						<word>quoted_printable_decode</word>
+
+						<word>quotemeta</word>
+
+						<word>rad2deg</word>
+
+						<word>rand</word>
+
+						<word>range</word>
+
+						<word>rawurldecode</word>
+
+						<word>rawurlencode</word>
+
+						<word>read</word>
+
+						<word>read_exif_data</word>
+
+						<word>readdir</word>
+
+						<word>readfile</word>
+
+						<word>readgzfile</word>
+
+						<word>readline</word>
+
+						<word>readline_add_history</word>
+
+						<word>readline_clear_history</word>
+
+						<word>readline_completion_function</word>
+
+						<word>readline_info</word>
+
+						<word>readline_list_history</word>
+
+						<word>readline_read_history</word>
+
+						<word>readline_write_history</word>
+
+						<word>readlink</word>
+
+						<word>readmagick</word>
+
+						<word>realpath</word>
+
+						<word>recode</word>
+
+						<word>recode_file</word>
+
+						<word>recode_string</word>
+
+						<word>register_shutdown_function</word>
+
+						<word>rename</word>
+
+						<word>reset</word>
+
+						<word>rewind</word>
+
+						<word>rewinddir</word>
+
+						<word>rmdir</word>
+
+						<word>root</word>
+
+						<word>round</word>
+
+						<word>rpc_call</word>
+
+						<word>rsort</word>
+
+						<word>rtrim</word>
+
+						<word>save</word>
+
+						<word>savefile</word>
+
+						<word>savemagick</word>
+
+						<word>scalemagick</word>
+
+						<word>select</word>
+
+						<word>sem_acquire</word>
+
+						<word>sem_get</word>
+
+						<word>sem_release</word>
+
+						<word>serialize</word>
+
+						<word>session_decode</word>
+
+						<word>session_destroy</word>
+
+						<word>session_encode</word>
+
+						<word>session_get_cookie_params</word>
+
+						<word>session_id</word>
+
+						<word>session_is_registered</word>
+
+						<word>session_module_name</word>
+
+						<word>session_name</word>
+
+						<word>session_register</word>
+
+						<word>session_save_path</word>
+
+						<word>session_set_cookie_params</word>
+
+						<word>session_set_save_handler</word>
+
+						<word>session_start</word>
+
+						<word>session_unregister</word>
+
+						<word>session_unset</word>
+
+						<word>set_error_handler</word>
+
+						<word>set_file_buffer</word>
+
+						<word>set_magic_quotes_runtime</word>
+
+						<word>set_socket_blocking</word>
+
+						<word>set_socket_timeout</word>
+
+						<word>set_time_limit</word>
+
+						<word>set_user_error_handler</word>
+
+						<word>setattr</word>
+
+						<word>setcookie</word>
+
+						<word>setlocale</word>
+
+						<word>settype</word>
+
+						<word>shell_exec</word>
+
+						<word>shm_attach</word>
+
+						<word>shm_detach</word>
+
+						<word>shm_get_var</word>
+
+						<word>shm_put_var</word>
+
+						<word>shm_remove</word>
+
+						<word>shm_remove_var</word>
+
+						<word>short_tags</word>
+
+						<word>show_source</word>
+
+						<word>shuffle</word>
+
+						<word>similar_text</word>
+
+						<word>sin</word>
+
+						<word>sizeof</word>
+
+						<word>sleep</word>
+
+						<word>snmp_get_quick_print</word>
+
+						<word>snmp_set_quick_print</word>
+
+						<word>snmpget</word>
+
+						<word>snmprealwalk</word>
+
+						<word>snmpset</word>
+
+						<word>snmpwalk</word>
+
+						<word>snmpwalkoid</word>
+
+						<word>socket_get_status</word>
+
+						<word>socket_set_blocking</word>
+
+						<word>socket_set_timeout</word>
+
+						<word>solid_close</word>
+
+						<word>solid_connect</word>
+
+						<word>solid_exec</word>
+
+						<word>solid_fetch_prev</word>
+
+						<word>solid_fetchrow</word>
+
+						<word>solid_fieldname</word>
+
+						<word>solid_fieldnum</word>
+
+						<word>solid_freeresult</word>
+
+						<word>solid_numfields</word>
+
+						<word>solid_numrows</word>
+
+						<word>solid_result</word>
+
+						<word>sort</word>
+
+						<word>soundex</word>
+
+						<word>split</word>
+
+						<word>sprintf</word>
+
+						<word>sql_regcase</word>
+
+						<word>sqlconnect</word>
+
+						<word>sqldisconnect</word>
+
+						<word>sqlexecdirect</word>
+
+						<word>sqlfetch</word>
+
+						<word>sqlfree</word>
+
+						<word>sqlgetdata</word>
+
+						<word>sqlrowcount</word>
+
+						<word>sqrt</word>
+
+						<word>srand</word>
+
+						<word>sscanf</word>
+
+						<word>stat</word>
+
+						<word>str_pad</word>
+
+						<word>str_repeat</word>
+
+						<word>str_replace</word>
+
+						<word>strcasecmp</word>
+
+						<word>strchr</word>
+
+						<word>strcmp</word>
+
+						<word>strcspn</word>
+
+						<word>strftime</word>
+
+						<word>strip_tags</word>
+
+						<word>stripcslashes</word>
+
+						<word>stripslashes</word>
+
+						<word>stristr</word>
+
+						<word>strlen</word>
+
+						<word>strnatcasecmp</word>
+
+						<word>strnatcmp</word>
+
+						<word>strncmp</word>
+
+						<word>strpos</word>
+
+						<word>strrchr</word>
+
+						<word>strrev</word>
+
+						<word>strrpos</word>
+
+						<word>strspn</word>
+
+						<word>strstr</word>
+
+						<word>strtok</word>
+
+						<word>strtolower</word>
+
+						<word>strtotime</word>
+
+						<word>strtoupper</word>
+
+						<word>strtr</word>
+
+						<word>strval</word>
+
+						<word>substr</word>
+
+						<word>substr_count</word>
+
+						<word>substr_replace</word>
+
+						<word>swf_actiongeturl</word>
+
+						<word>swf_actiongotoframe</word>
+
+						<word>swf_actiongotolabel</word>
+
+						<word>swf_actionnextframe</word>
+
+						<word>swf_actionplay</word>
+
+						<word>swf_actionprevframe</word>
+
+						<word>swf_actionsettarget</word>
+
+						<word>swf_actionstop</word>
+
+						<word>swf_actiontogglequality</word>
+
+						<word>swf_actionwaitforframe</word>
+
+						<word>swf_addbuttonrecord</word>
+
+						<word>swf_addcolor</word>
+
+						<word>swf_closefile</word>
+
+						<word>swf_definebitmap</word>
+
+						<word>swf_definefont</word>
+
+						<word>swf_defineline</word>
+
+						<word>swf_definepoly</word>
+
+						<word>swf_definerect</word>
+
+						<word>swf_definetext</word>
+
+						<word>swf_endbutton</word>
+
+						<word>swf_enddoaction</word>
+
+						<word>swf_endshape</word>
+
+						<word>swf_endsymbol</word>
+
+						<word>swf_fontsize</word>
+
+						<word>swf_fontslant</word>
+
+						<word>swf_fonttracking</word>
+
+						<word>swf_getbitmapinfo</word>
+
+						<word>swf_getfontinfo</word>
+
+						<word>swf_getframe</word>
+
+						<word>swf_labelframe</word>
+
+						<word>swf_lookat</word>
+
+						<word>swf_modifyobject</word>
+
+						<word>swf_mulcolor</word>
+
+						<word>swf_nextid</word>
+
+						<word>swf_oncondition</word>
+
+						<word>swf_openfile</word>
+
+						<word>swf_ortho</word>
+
+						<word>swf_ortho2</word>
+
+						<word>swf_perspective</word>
+
+						<word>swf_placeobject</word>
+
+						<word>swf_polarview</word>
+
+						<word>swf_popmatrix</word>
+
+						<word>swf_posround</word>
+
+						<word>swf_pushmatrix</word>
+
+						<word>swf_removeobject</word>
+
+						<word>swf_rotate</word>
+
+						<word>swf_scale</word>
+
+						<word>swf_setfont</word>
+
+						<word>swf_setframe</word>
+
+						<word>swf_shapearc</word>
+
+						<word>swf_shapecurveto</word>
+
+						<word>swf_shapecurveto3</word>
+
+						<word>swf_shapefillbitmapclip</word>
+
+						<word>swf_shapefillbitmaptile</word>
+
+						<word>swf_shapefilloff</word>
+
+						<word>swf_shapefillsolid</word>
+
+						<word>swf_shapelinesolid</word>
+
+						<word>swf_shapelineto</word>
+
+						<word>swf_shapemoveto</word>
+
+						<word>swf_showframe</word>
+
+						<word>swf_startbutton</word>
+
+						<word>swf_startdoaction</word>
+
+						<word>swf_startshape</word>
+
+						<word>swf_startsymbol</word>
+
+						<word>swf_textwidth</word>
+
+						<word>swf_translate</word>
+
+						<word>swf_viewport</word>
+
+						<word>sybase_affected_rows</word>
+
+						<word>sybase_close</word>
+
+						<word>sybase_connect</word>
+
+						<word>sybase_data_seek</word>
+
+						<word>sybase_fetch_array</word>
+
+						<word>sybase_fetch_field</word>
+
+						<word>sybase_fetch_object</word>
+
+						<word>sybase_fetch_row</word>
+
+						<word>sybase_field_seek</word>
+
+						<word>sybase_free_result</word>
+
+						<word>sybase_get_last_message</word>
+
+						<word>sybase_min_client_severity</word>
+
+						<word>sybase_min_error_severity</word>
+
+						<word>sybase_min_message_severity</word>
+
+						<word>sybase_min_server_severity</word>
+
+						<word>sybase_num_fields</word>
+
+						<word>sybase_num_rows</word>
+
+						<word>sybase_pconnect</word>
+
+						<word>sybase_query</word>
+
+						<word>sybase_result</word>
+
+						<word>sybase_select_db</word>
+
+						<word>symlink</word>
+
+						<word>syslog</word>
+
+						<word>system</word>
+
+						<word>tan</word>
+
+						<word>tempnam</word>
+
+						<word>textdomain</word>
+
+						<word>time</word>
+
+						<word>tmpfile</word>
+
+						<word>toggle_short_open_tag</word>
+
+						<word>touch</word>
+
+						<word>trigger_error</word>
+
+						<word>trim</word>
+
+						<word>uasort</word>
+
+						<word>ucfirst</word>
+
+						<word>ucwords</word>
+
+						<word>uksort</word>
+
+						<word>umask</word>
+
+						<word>uniqid</word>
+
+						<word>unixtojd</word>
+
+						<word>unlink</word>
+
+						<word>unpack</word>
+
+						<word>unserialize</word>
+
+						<word>urldecode</word>
+
+						<word>urlencode</word>
+
+						<word>user_error</word>
+
+						<word>usleep</word>
+
+						<word>usort</word>
+
+						<word>utf8_decode</word>
+
+						<word>utf8_encode</word>
+
+						<word>var_dump</word>
+
+						<word>velocis_autocommit</word>
+
+						<word>velocis_close</word>
+
+						<word>velocis_commit</word>
+
+						<word>velocis_connect</word>
+
+						<word>velocis_exec</word>
+
+						<word>velocis_fetch</word>
+
+						<word>velocis_fieldname</word>
+
+						<word>velocis_fieldnum</word>
+
+						<word>velocis_freeresult</word>
+
+						<word>velocis_off_autocommit</word>
+
+						<word>velocis_result</word>
+
+						<word>velocis_rollback</word>
+
+						<word>virtual</word>
+
+						<word>vm_addalias</word>
+
+						<word>vm_adduser</word>
+
+						<word>vm_delalias</word>
+
+						<word>vm_deluser</word>
+
+						<word>vm_passwd</word>
+
+						<word>wddx_add_vars</word>
+
+						<word>wddx_deserialize</word>
+
+						<word>wddx_packet_end</word>
+
+						<word>wddx_packet_start</word>
+
+						<word>wddx_serialize</word>
+
+						<word>wddx_serialize_value</word>
+
+						<word>wddx_serialize_vars</word>
+
+						<word>wddx_unserialize</word>
+
+						<word>writetofile</word>
+
+						<word>xml_error_string</word>
+
+						<word>xml_get_current_byte_index</word>
+
+						<word>xml_get_current_column_number</word>
+
+						<word>xml_get_current_line_number</word>
+
+						<word>xml_get_error_code</word>
+
+						<word>xml_parse</word>
+
+						<word>xml_parse_into_struct</word>
+
+						<word>xml_parser_create</word>
+
+						<word>xml_parser_free</word>
+
+						<word>xml_parser_get_option</word>
+
+						<word>xml_parser_set_option</word>
+
+						<word>xml_set_character_data_handler</word>
+
+						<word>xml_set_default_handler</word>
+
+						<word>xml_set_element_handler</word>
+
+						<word>xml_set_external_entity_ref_handler</word>
+
+						<word>xml_set_notation_decl_handler</word>
+
+						<word>xml_set_object</word>
+
+						<word>xml_set_processing_instruction_handler</word>
+
+						<word>xml_set_unparsed_entity_decl_handler</word>
+
+						<word>xmldoc</word>
+
+						<word>xmldocfile</word>
+
+						<word>xmltree</word>
+
+						<word>yaz_addinfo</word>
+
+						<word>yaz_close</word>
+
+						<word>yaz_connect</word>
+
+						<word>yaz_element</word>
+
+						<word>yaz_errno</word>
+
+						<word>yaz_error</word>
+
+						<word>yaz_hits</word>
+
+						<word>yaz_range</word>
+
+						<word>yaz_record</word>
+
+						<word>yaz_search</word>
+
+						<word>yaz_syntax</word>
+
+						<word>yaz_wait</word>
+
+						<word>yp_first</word>
+
+						<word>yp_get_default_domain</word>
+
+						<word>yp_master</word>
+
+						<word>yp_match</word>
+
+						<word>yp_next</word>
+
+						<word>yp_order</word>
+
+						<word>zend_logo_guid</word>
+
+						<word>zend_test_func</word>
+
+						<word>zend_version</word>
+
+					</keyword_list2>
+
+					<keyword_list3/>
+
+					<keyword_list4/>
+
+					<preprocessors/>
+
+				</keywords>
+
+			</syntaxblock3>
+
+			<syntaxblock4>
+
+				<settings>
+
+					<case_sensitive>true</case_sensitive>
+
+					<multiline_strings>true</multiline_strings>
+
+					<embedded_syntax>false</embedded_syntax>
+
+					<accept_embedded_syntax>true</accept_embedded_syntax>
+
+					<parser>XML</parser>
+
+				</settings>
+
+				<syntax>
+
+					<syntaxstart>&lt;</syntaxstart>
+
+					<syntaxend>&gt;</syntaxend>
+
+					<extcommentstart/>
+
+					<extcommentend/>
+
+					<extcommentstart2/>
+
+					<extcommentend2/>
+
+					<commentstart/>
+
+					<commentend/>
+
+					<stringstart>&quot;</stringstart>
+
+					<stringend>&quot;</stringend>
+
+					<charstart>&apos;</charstart>
+
+					<charend>&apos;</charend>
+
+					<preprocessor/>
+
+					<operators>?/=!</operators>
+
+					<brackets/>
+
+					<escape>\</escape>
+
+				</syntax>
+
+				<colors>
+
+					<normaltext>
+
+						<foreground>#000000</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html Unknown Text</label>
+
+					</normaltext>
+
+					<keywords1/>
+
+					<keywords2/>
+
+					<keywords3/>
+
+					<keywords4/>
+
+					<preprocessors/>
+
+					<methods/>
+
+					<commentline/>
+
+					<commenttext1/>
+
+					<commenttext2/>
+
+					<numbers/>
+
+					<operators>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html Operator</label>
+
+					</operators>
+
+					<strings>
+
+						<foreground>#008080</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html String</label>
+
+					</strings>
+
+					<brackets/>
+
+					<brackets_highlight/>
+
+					<errortext/>
+
+					<syntaxstart>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html Tag Open</label>
+
+					</syntaxstart>
+
+					<syntaxend>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html Tag Close</label>
+
+					</syntaxend>
+
+					<tag_element>
+
+						<foreground>#0000FF</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html Element</label>
+
+					</tag_element>
+
+					<tag_attribute>
+
+						<foreground>#00008B</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html Attribute</label>
+
+					</tag_attribute>
+
+					<tag_value>
+
+						<foreground>#008080</foreground>
+
+						<background>#FFFFFF</background>
+
+						<italic>false</italic>
+
+						<bold>false</bold>
+
+						<highlight>false</highlight>
+
+						<label>Html Attribute Value</label>
+
+					</tag_value>
+
+				</colors>
+
+				<keywords>
+
+					<keyword_list1/>
+
+					<keyword_list2/>
+
+					<keyword_list3/>
+
+					<keyword_list4/>
+
+					<preprocessors/>
+
+				</keywords>
+
+			</syntaxblock4>
+
+			<syntaxblock5/>
+
+		</parser>
+
+		<settings>
+
+			<general>
+
+				<label>PHP</label>
+
+				<tabsize>4</tabsize>
+
+				<encoding>-1</encoding>
+
+				<file_extensions>php</file_extensions>
+
+				<insert_spaces>false</insert_spaces>
+
+				<auto_indent>true</auto_indent>
+
+				<indent_mode>none</indent_mode>
+
+				<indent_engine/>
+
+				<endofline>AUTO</endofline>
+
+				<backspace>false</backspace>
+
+				<autobracket>false</autobracket>
+
+				<show_spaces>false</show_spaces>
+
+				<show_linenr>true</show_linenr>
+
+				<show_margin>true</show_margin>
+
+				<wordwrap>false</wordwrap>
+
+				<trim_trailingspaces>false</trim_trailingspaces>
+
+				<disable_syntax>false</disable_syntax>
+
+				<textlimit>80</textlimit>
+
+			</general>
+
+			<colors>
+
+				<whitespace>
+
+					<foreground>#7F7F7F</foreground>
+
+					<background>#FFFFFF</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>WhiteSpace</label>
+
+				</whitespace>
+
+				<background>
+
+					<foreground>#FFFFFF</foreground>
+
+					<background>#FFFFFF</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Background</label>
+
+				</background>
+
+				<leftmargin>
+
+					<foreground>#7070BF</foreground>
+
+					<background>#EAEAEA</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Left Margin</label>
+
+				</leftmargin>
+
+				<selectedtext>
+
+					<foreground>#FFFFFF</foreground>
+
+					<background>#7070BF</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Selected Text</label>
+
+				</selectedtext>
+
+				<debugpointer>
+
+					<foreground>#000000</foreground>
+
+					<background>#FFFF00</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Debug Pointer</label>
+
+				</debugpointer>
+
+				<errorpointer>
+
+					<foreground>#A02000</foreground>
+
+					<background>#FF0000</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Error Pointer</label>
+
+				</errorpointer>
+
+				<linepointer>
+
+					<foreground>#000000</foreground>
+
+					<background>#E6E6FA</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>true</highlight>
+
+					<label>Line Pointer</label>
+
+				</linepointer>
+
+				<line_highlight>
+
+					<foreground>#000000</foreground>
+
+					<background>#E6E6FA</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Cursor Line</label>
+
+				</line_highlight>
+
+				<breakpoints>
+
+					<foreground>#000000</foreground>
+
+					<background>#FF0000</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Breakpoint</label>
+
+				</breakpoints>
+
+				<disabled_breakpoints>
+
+					<foreground>#FF0000</foreground>
+
+					<background>#FFFFFF</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Disabled Breakpoint</label>
+
+				</disabled_breakpoints>
+
+				<bookmarks>
+
+					<foreground>#000000</foreground>
+
+					<background>#000080</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Bookmark</label>
+
+				</bookmarks>
+
+				<textlimit_line>
+
+					<foreground>#EFEBEF</foreground>
+
+					<background>#EFEBEF</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Text Limiter</label>
+
+				</textlimit_line>
+
+				<folding_margin>
+
+					<foreground>#FFFFFF</foreground>
+
+					<background>#FFFFFF</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Folding Margin</label>
+
+				</folding_margin>
+
+				<folding_box>
+
+					<foreground>#A9A9A9</foreground>
+
+					<background>#FFFFFF</background>
+
+					<italic>false</italic>
+
+					<bold>false</bold>
+
+					<highlight>false</highlight>
+
+					<label>Folding Box</label>
+
+				</folding_box>
+
+			</colors>
+
+			<fonts>
+
+				<screen>
+
+					<name>Courier</name>
+
+					<size>-15</size>
+
+					<charset>0</charset>
+
+				</screen>
+
+				<printer>
+
+					<name>Courier New</name>
+
+					<size>-15</size>
+
+					<charset>0</charset>
+
+				</printer>
+
+			</fonts>
+
+			<printer>
+
+				<header_string>&amp;L&amp;f&amp;R&amp;d</header_string>
+
+				<footer_string>&amp;C&amp;p of &amp;P</footer_string>
+
+				<margins>0,0,0,0</margins>
+
+				<papersize>0,0</papersize>
+
+				<footerline>true</footerline>
+
+				<headerline>true</headerline>
+
+				<line_numbers>true</line_numbers>
+
+				<color>true</color>
+
+				<wordwrap>false</wordwrap>
+
+			</printer>
+
+			<folding>
+
+				<enable>false</enable>
+
+				<auto_refresh>true</auto_refresh>
+
+				<engine/>
+
+				<initial_collapse>false</initial_collapse>
+
+				<extend_spaces>true</extend_spaces>
+
+				<max_level>1</max_level>
+
+				<max_length>-1</max_length>
+
+			</folding>
+
+		</settings>
+
+	</document>
+
+</jcreator>

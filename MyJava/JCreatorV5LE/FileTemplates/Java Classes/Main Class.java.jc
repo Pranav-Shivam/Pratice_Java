@@ -1,0 +1,24 @@
+/**
+ * @(#)$[FileBase].java
+ *
+ *
+ * @author $[Author]
+ * @version 1.00 $[Year]/$[Month]/$[Day]
+ */
+
+public class $[FileBase] {
+        
+    /**
+     * Creates a new instance of <code>$[FileBase]</code>.
+     */
+    public $[FileBase]() {
+    }
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+}
+

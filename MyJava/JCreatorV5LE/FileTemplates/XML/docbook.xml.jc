@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : $[FileBase].xml
+    Created on : $[Year]/$[Month]/$[Day]
+    Author     :
+    Description:
+        Purpose of the document follows.
+-->
+
+<sect1 id='$[FileLBase]' XrefLabel='$[FileLBase]'>
+
+	<title></title>
+
+	<indexterm><primary></primary><secondary></secondary></indexterm>
+
+	<para></para>
+
+</sect1>
+
